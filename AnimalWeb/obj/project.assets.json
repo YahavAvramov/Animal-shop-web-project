@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yahav\\.nuget\\packages\\": {},
+    "C:\\Users\\senik\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopWeb\\AnimalWeb\\AnimalWeb\\AnimalWeb.csproj",
+      "projectUniqueName": "C:\\Users\\senik\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj",
       "projectName": "AnimalWeb",
-      "projectPath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopWeb\\AnimalWeb\\AnimalWeb\\AnimalWeb.csproj",
-      "packagesPath": "C:\\Users\\yahav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopWeb\\AnimalWeb\\AnimalWeb\\obj\\",
+      "projectPath": "C:\\Users\\senik\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj",
+      "packagesPath": "C:\\Users\\senik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\senik\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\yahav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\senik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
