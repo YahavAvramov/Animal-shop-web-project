@@ -18,7 +18,7 @@ namespace AnimalWeb.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Categoris()
         {
             return View();
         }
