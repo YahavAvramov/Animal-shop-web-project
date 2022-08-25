@@ -15,7 +15,6 @@ namespace AnimalWeb.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.mainPagePic = @"C:\Users\yahav\OneDrive\שולחן העבודה\clone Animal project\AnimalWeb\Assets\HomePagePhoto.png";
             return View();
         }
 
