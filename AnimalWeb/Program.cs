@@ -1,28 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+using AnimalWeb.Data;
+
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
+builder.Services.AddDbContext<Context>(options => options.UseSqlite("Data Source=c:\\temp\\example4.db"));
 builder.Services.AddControllersWithViews();
-
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+using (var scope = app.Services.CreateScope())
 {
-    app.UseExceptionHandler("/Home/Error");
-
-    app.UseHsts();
+    var ctx = scope.ServiceProvider.GetRequiredService<Context>();
+    ctx.Database.EnsureDeleted();
+    ctx.Database.EnsureCreated();
 }
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute("Default", "{controller=HomeController}/{action=Index}/{id?}");
+});
 
 app.Run();
