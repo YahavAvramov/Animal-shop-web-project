@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d53+ATDoYLIgGs4+8U9DEonJZUtCYULi1WRft2811UA=",
+  "Hash": "3aJN27OOuEfBla3E0byWR/u5h7gkaPGIUemfu2fJqP4=",
   "Source": "AnimalWeb",
   "BasePath": "_content/AnimalWeb",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\yahav\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AnimalWeb.styles.css",
-      "SourceId": "AnimalWeb",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\yahav\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/AnimalWeb",
-      "RelativePath": "AnimalWeb.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\yahav\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AnimalWeb.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\yahav\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AnimalWeb.bundle.scp.css",
-      "SourceId": "AnimalWeb",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\yahav\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/AnimalWeb",
-      "RelativePath": "AnimalWeb.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\yahav\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AnimalWeb.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\yahav\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\wwwroot\\Assets\\dog.jpg",
       "SourceId": "AnimalWeb",
