@@ -1,0 +1,21 @@
+﻿
+
+@{
+    ViewData["Title"] = "Categoris";
+}
+
+<h1> you are at Categoris page</h1>
+
+<div>
+   
+    @{
+        List<Categories> categories = ViewBag.Categoties;
+
+        foreach (var item in categories)
+        {
+            <p>@item.ID @item.Name</p>
+        }
+    }
+
+</div>
+

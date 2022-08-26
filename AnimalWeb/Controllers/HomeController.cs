@@ -7,23 +7,22 @@ namespace AnimalWeb.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+
         private Context _context;
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+
         public HomeController(Context context)
         {
             _context = context;
         }
         public IActionResult Index()
         {
+
             return View();
         }
 
-        public IActionResult Categoris()
+        public IActionResult Categories()
         {
+            ViewBag.Categoties = _context.Categories.ToList();
             return View();
         }
 
