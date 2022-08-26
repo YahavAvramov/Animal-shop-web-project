@@ -1,5 +1,6 @@
 ﻿using AnimalWeb.Data;
 using AnimalWeb.Models;
+using AnimalWeb.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -7,13 +8,13 @@ namespace AnimalWeb.Controllers
 {
     public class HomeController : Controller
     {
+        private IRepository _repository;
 
-        private Context _context;
-
-        public HomeController(Context context)
+        public HomeController(IRepository repository)
         {
-            _context = context;
+            _repository = repository;
         }
+
         public IActionResult Index()
         {
 
@@ -22,8 +23,7 @@ namespace AnimalWeb.Controllers
 
         public IActionResult Categories()
         {
-            ViewBag.Categoties = _context.Categories.ToList();
-            return View();
+            return View(_repository.GetCategories());
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
