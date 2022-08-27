@@ -21,7 +21,8 @@ namespace AnimalWeb.Data
             modelBuilder.Entity<Categories>().HasData(
                 new { ID = 1, Name = "Dogs", CategoryPicture = "Path" },
                 new { ID = 2, Name = "Cats", CategoryPicture = "Path" },
-                new { ID = 3, Name = "Fish", CategoryPicture = "Path" }
+                new { ID = 3, Name = "Fish", CategoryPicture = "Path" },
+                new { ID = 4, Name = "rabbit", CategoryPicture = "Path" }
             );
             modelBuilder.Entity<Animals>().HasData(
                 new { ID = 1, Name = "Rex", Age = 1, PictureName = "Path", Description = "lorem50", CategoryID = 1, Price = 10},

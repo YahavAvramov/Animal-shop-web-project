@@ -13,6 +13,7 @@ namespace AnimalWeb.Controllers
         public HomeController(IRepository repository)
         {
             _repository = repository;
+            ViewBag.Categoryrepository = _repository.GetCategories();
         }
 
         public IActionResult Index()
@@ -20,16 +21,15 @@ namespace AnimalWeb.Controllers
 
             return View();
         }
-        public IActionResult Index1()
-        {
-            return View();
-        }
 
         public IActionResult Categories()
         {
             return View(_repository.GetCategories());
         }
-       
+       public IActionResult AdminPage()
+        {
+            return View();
+        }
 
 
 
