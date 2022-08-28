@@ -1,0 +1,38 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<AnimalWeb.Models.Categories>
+
+
+@{
+    ViewData["Title"] = "Categoris";
+}
+<body style="background-color:chocolate">
+
+    <h1> you are at Categoris page</h1>
+
+    <div>
+
+
+        @foreach (var item in Model)
+        {
+
+            <div class="col-lg-4">
+
+                <svg width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" style="border-radius:50%; " fill="#777">
+                    <title>@item.Name</title>
+                    <div>
+                        <p><a class="btn btn-secondary" href="@Url.Action(@item.Name, "Categories")">  <img src="@item.CategoryPicture" alt="@item.Name icon" style="height:150px; width:150px; border-radius:50%;" /> </a></p>
+                        <h2 class="fw-normal">@Html.DisplayFor(model => item.Name)</h2>
+                        <label> <a href="@Url.Action(@item.Name, "Categories")">serch @item.Name</a></label>
+
+                    </div>
+
+                </svg>
+                @*  each category will have an uniq action with her name that will return the view of her page*@
+
+            </div>
+        }
+
+    </div>
+</body>
+
+

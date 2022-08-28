@@ -22,10 +22,6 @@ namespace AnimalWeb.Controllers
             return View();
         }
 
-        public IActionResult Categories()
-        {
-            return View(_repository.GetCategories());
-        }
        public IActionResult AdminPage()
         {
             return View();

@@ -19,10 +19,11 @@ namespace AnimalWeb.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Categories>().HasData(
-                new { ID = 1, Name = "Dogs", CategoryPicture = "https://cdn.pixabay.com/photo/2018/05/26/18/06/dog-3431913_960_720.jpg" },
-                new { ID = 2, Name = "Cats", CategoryPicture = "https://cdn.pixabay.com/photo/2021/04/19/23/01/cat-6192640_960_720.png" },
-                new { ID = 3, Name = "Fish", CategoryPicture = "https://cdn.pixabay.com/photo/2020/11/20/16/57/fish-5762191_960_720.png" },
-                new { ID = 4, Name = "rabbits", CategoryPicture = "https://media.istockphoto.com/vectors/bunny-head-icon-vector-id1144656871?b=1&k=20&m=1144656871&s=170667a&w=0&h=ewHpDlmi8ExuEOc_SJDPxf5K5ao3wjtumed9TWbJ1UY=" }
+                new { ID = 1, Name = "Dogs", CategoryPicture = @"\Assets\CategoriesI-icons\dog-icon.webp" },
+                new { ID = 2, Name = "Cats", CategoryPicture = @"\Assets\CategoriesI-icons\cat-icon.webp" },
+                new { ID = 3, Name = "Fish", CategoryPicture = @"\Assets\CategoriesI-icons\fish-icon.webp" },
+                new { ID = 4, Name = "Rabbits", CategoryPicture = @"\Assets\CategoriesI-icons\rabbit-icon.jpg" },
+                new { ID = 5, Name = "Iguwanas", CategoryPicture = @"\Assets\CategoriesI-icons\iguana-icon.jpg" }
             );
             modelBuilder.Entity<Animals>().HasData(
                 new { ID = 1, Name = "Rex", Age = 1, PictureName = "Path", Description = "lorem50", CategoryID = 1, Price = 10},
