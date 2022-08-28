@@ -5,58 +5,31 @@
 @{
     ViewData["Title"] = "Categoris";
 }
-<body >
-    <link href="/docs/5.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet" integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE" crossorigin="anonymous">
+<body style="background-color:chocolate"> 
 
     <h1> you are at Categoris page</h1>
 
     <div>
 
-        <table>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model=>model.ID)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model=>model.Name)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model=>model.CategoryPicture)
-                </th>
-                <th></th>
-            </tr>
-
+        
             @foreach (var item in Model)
             {
 
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-                    <h2 class="fw-normal">@Html.DisplayFor(model => item.Name)</h2>
-                    <p> <img src=" @Html.DisplayFor(model => item.CategoryPicture)" alt="@item.Name picture"/> </p>
+                    <svg width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" style="border-radius:50%; " fill="#777">
+                        <title>Placeholder</title>
+                        <div>
+                            <img src="@item.CategoryPicture" alt="@item.Name icon" style="height:150px; width:150px; border-radius:50%;" />
+                            <h2 class="fw-normal">@Html.DisplayFor(model => item.Name)</h2>
+                            <p><a class="btn btn-secondary" href="@Url.Action(@item.Name, "Home")">View details »</a></p>
 
+                        </div>
 
-                    <p><a class="btn btn-secondary" href="@Url.Action(@item.Name, "Home")">View details »</a></p> 
-                  @*  each category will have an uniq action with her name that will return the view of her page*@
+                    </svg>
+                    @*  each category will have an uniq action with her name that will return the view of her page*@
 
                 </div>
-
-
-            <tr>
-
-                    <td>
-                        @Html.DisplayFor(model =>item.ID)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(model => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(model => item.CategoryPicture)
-                    </td>
-                    <td>
-                    </td>
-                </tr>
-
             }
 
     </div>

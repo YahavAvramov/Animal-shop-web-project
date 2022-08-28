@@ -7,6 +7,7 @@ builder.Services.AddTransient<IRepository, MyRepository>();
 builder.Services.AddDbContext<Context>(options => options.UseSqlite("Data Source=c:\\temp\\example4.db"));
 builder.Services.AddControllersWithViews();
 var app = builder.Build();
+app.UseStaticFiles();
 
 using (var scope = app.Services.CreateScope())
 {
