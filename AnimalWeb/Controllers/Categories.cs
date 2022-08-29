@@ -1,6 +1,8 @@
-﻿using AnimalWeb.Repositories;
+﻿using AnimalWeb.Models;
+using AnimalWeb.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace AnimalWeb.Controllers
 {
@@ -14,7 +16,9 @@ namespace AnimalWeb.Controllers
         }
         public IActionResult Dogs()
         {
-            return View();
+            int dogID = _repository.GetCategories().Where(c => c.Name == "Dogs").Select(c => c.ID).First();// geting the category id for dogs
+            IEnumerable<Animals> dogs = _repository.GetAnimals();/*.Where(animal => animal.Category.ID == dogID);*/
+            return View(dogs);
         }
         public IActionResult AllCategories()
         {

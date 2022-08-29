@@ -1,7 +1,12 @@
-﻿
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<AnimalWeb.Models.Animals>
 @{
     ViewData["Title"] = "Dogs";
 }
 
 <h1>You are at Dogs page</h1>
+@foreach (var dog in Model)
+{
+    <label>@dog.ID @dog.Age @dog.Name @dog.Category</label>
+}
 
