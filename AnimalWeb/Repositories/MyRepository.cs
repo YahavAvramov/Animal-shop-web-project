@@ -16,6 +16,10 @@ namespace AnimalWeb.Repositories
         {
             return _context.Animals!;
         }
+        public IEnumerable<Animals> GetAnimalsByCategory(string Category)
+        {
+            return _context.Animals.Where(x => x.Category.Name == Category);
+        }
         public IEnumerable<Categories> GetCategories()
         {
             return _context.Categories!;

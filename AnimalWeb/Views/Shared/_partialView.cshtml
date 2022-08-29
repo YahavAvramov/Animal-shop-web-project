@@ -1,0 +1,35 @@
+﻿<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <div style="margin-top:-30px;">
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                    <img src="\Assets\iconGetPet.png" alt="icon" width="80" height="60" background-size: cover; />
+                </a>
+            </div>
+
+
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="@Url.Action("Index", "Home")">Home</a></li>
+
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="@Url.Action("AllCategories", "Categories")">Categories<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="@Url.Action("AllCategories", "Categories")">Categories</a></li>
+                    <li><a href="@Url.Action("GetCategory", "Categories")">Dogs</a></li>
+                    <li><a href="@Url.ActionLink("GetCategory", "Categories","Cats")">Cats</a></li>
+                    <li><a href="@Url.Action("GetCategory", "Categories","1")">Fish</a></li>
+                    <li><a href="@Url.Action("GetCategory", "Categories","1")">Rabbits</a></li>
+                    <li><a href="@Url.Action("GetCategory", "Categories","1")">Iguwanas</a></li>
+                    <li><a href="@Url.Action("GetCategory", "Categories","1")">Birds</a></li>
+
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="@Url.Action("AdminConnectionForm", "Admin")"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="@Url.Action("AdminConnectionForm", "Admin")"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+    </div>
+</nav>
+

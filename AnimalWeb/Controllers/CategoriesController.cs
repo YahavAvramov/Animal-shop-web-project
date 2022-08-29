@@ -2,27 +2,29 @@
 using AnimalWeb.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Linq;
 
 namespace AnimalWeb.Controllers
 {
-    public class Categories : Controller
+    public class CategoriesController : Controller
     {
         private IRepository _repository;
 
-        public Categories(IRepository repository)
+        public CategoriesController(IRepository repository)
         {
             _repository = repository;
-        }
-        public IActionResult Dogs()
-        {
-            int dogID = _repository.GetCategories().Where(c => c.Name == "Dogs").Select(c => c.ID).First();// geting the category id for dogs
-            IEnumerable<Animals> dogs = _repository.GetAnimals();/*.Where(animal => animal.Category.ID == dogID);*/
-            return View(dogs);
         }
         public IActionResult AllCategories()
         {
             return View(_repository.GetCategories());
+        }
+        public IActionResult GetCategory(string category)
+        {
+            var data = _repository.GetAnimalsByCategory(category);
+            return View(data);
+        }
+        public IActionResult Dogs()
+        {
+            return View();
         }
         public IActionResult Rabbits()
         {
@@ -40,11 +42,6 @@ namespace AnimalWeb.Controllers
         {
             return View();
         }
-        public ActionResult Index()
-        {
-            return View();
-        }
-
 
         // GET: Categories/Details/5
         public ActionResult Details(int id)

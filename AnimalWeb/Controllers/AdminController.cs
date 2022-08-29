@@ -3,14 +3,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AnimalWeb.Controllers
 {
-    public class Admin : Controller
+    public class AdminController : Controller
     {
        
         public ActionResult Index()
         {
             return View();
         }
-        public IActionResult AdminConactionForm()
+        public IActionResult AdminConnectionForm()
         {
             return View();
         }

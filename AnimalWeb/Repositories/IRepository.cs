@@ -5,6 +5,7 @@ namespace AnimalWeb.Repositories
     public interface IRepository
     {
         IEnumerable<Animals> GetAnimals();
+        IEnumerable<Animals> GetAnimalsByCategory(string category);
         IEnumerable<Categories> GetCategories();
         IEnumerable<Comments> GetComments();
         void InsertAnimal(Animals animal);
