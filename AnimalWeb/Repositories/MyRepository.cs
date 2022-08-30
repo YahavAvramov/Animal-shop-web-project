@@ -24,6 +24,10 @@ namespace AnimalWeb.Repositories
         {
             return _context.Categories!;
         }
+        public string GetCategoryById(int Id)
+        {
+            return _context.Categories.Single(x => x.ID == Id).Name.ToString();
+        }
         public IEnumerable<Comments> GetComments()
         {
             return _context.Comments!;
