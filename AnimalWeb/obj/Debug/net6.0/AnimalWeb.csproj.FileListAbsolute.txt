@@ -1020,9 +1020,7 @@ C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\obj\Debug\net6.0\A
 C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\obj\Debug\net6.0\AnimalWeb.RazorAssemblyInfo.cs
 C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\obj\Debug\net6.0\scopedcss\bundle\AnimalWeb.styles.css
-C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\obj\Debug\net6.0\scopedcss\projectbundle\AnimalWeb.bundle.scp.css
 C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\obj\Debug\net6.0\AnimalWeb.csproj.CopyComplete
 C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\obj\Debug\net6.0\AnimalWeb.dll
 C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\obj\Debug\net6.0\refint\AnimalWeb.dll
