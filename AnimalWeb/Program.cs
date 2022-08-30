@@ -4,6 +4,7 @@ using AnimalWeb.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddTransient<IRepository, MyRepository>();
+builder.Services.AddTransient<IUserRepository, MyUserRepository>();
 builder.Services.AddDbContext<Context>(options => options.UseSqlite("Data Source=c:\\temp\\example4.db"));
 builder.Services.AddControllersWithViews();
 var app = builder.Build();

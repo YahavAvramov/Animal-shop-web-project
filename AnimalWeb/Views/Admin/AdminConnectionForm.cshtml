@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "AdminPage";
 }
 <head>
@@ -8,27 +7,31 @@
 
 <body style="background-color:gray">
     <h1 style="margin-top:50px; margin-left:50%;">Login Info</h1>
-    <br/>
-<form>
-  <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-    </div>
-  </div>
+    <br />
+    <form>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                <script>
+                    const userEmail = document.getElementById(inputEmail3).innerText;
+                    const userPassward = document.getElementById(inputPassword3).innerText;
+                </script>
+            </div>
+        </div>
 
-  <div class="form-group row">
-    <div class="col-sm-10">
-    <a href="@Url.Action("ChangingForm", "Admin")"><button type="submit" class="btn btn-primary" >Sign in</button> </a>  
-    </div>
-  </div>
-</form>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <a href="@Url.Action("checkAdminDetails", "AdminController" ,new { email =ViewData["userEmail"], passward= ViewData["userPassward"] } )"><button class="btn btn-primary">Sign in</button> </a>
+            </div>
+        </div>
+    </form>
 
 </body>
 

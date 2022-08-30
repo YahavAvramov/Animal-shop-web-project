@@ -26,7 +26,7 @@
                 </div>
                 <div class="modal-footer modal-centered">
                     <h2 class="fw-normal">@Html.DisplayFor(model => item.Name)</h2>
-                    <a href="@Url.Action("GetCategory", "Categories", new { categoryName = item.Name} )">
+                    <a href="@Url.Action("GetCategory", "Categories", new { categoryName = item.Name , isAdmin = ViewBag.isAdmin} )">
                         <button type="button" class="btn btn-primary btn-lg"> search @item.Name</button>
                     </a>
                 </div>
@@ -34,6 +34,15 @@
 
             </div>
         }
+        @{
+            if (ViewBag.isAdmin == true)
+            {
+                <div>
+                
+                </div>
+            }
+        }
+
 
     </div>
 

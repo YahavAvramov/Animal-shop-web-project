@@ -1,24 +1,39 @@
-﻿//using AnimalWeb.Data;
-//using AnimalWeb.Models;
+﻿using AnimalWeb.Data;
+using AnimalWeb.Models;
 
-//namespace AnimalWeb.Repositories
-//{
-//    public class MyUserRepository : IUserRepository
-//    {
-//        private Context _context;
+namespace AnimalWeb.Repositories
+{
+    public class MyUserRepository : IUserRepository
+    {
+        private Context _context;
 
-//        public MyUserRepository(Context context)
-//        {
-//            _context = context;
-//        }
-//        IEnumerable<Users> GetUser(string userName, string password)
-//        {
+        public MyUserRepository(Context context)
+        {
+            _context = context;
+        }
+        //IEnumerable<Users> GetUser(string userName, string password)
+        //{
 
-//            return ;
-//        }
-//        IEnumerable<UserAdmin> IsAdmin(Users user)
-//        {
 
-//        }
-//    }
-//}
+        //}
+        //IEnumerable<UserAdmin> IsAdmin(Users user)
+        //{
+
+        //}
+        public bool CheckUser(string userEmail, string password)
+        {
+            IEnumerable<Users> users = _context.Users;
+            if (users.Any(u => u.Password == password && u.Email == userEmail))
+            {
+                return true;
+            }
+            else return false;
+        }
+
+        public IEnumerable<Users> GetUsers()
+        {
+            return _context.Users!;
+        }
+    }
+}
+

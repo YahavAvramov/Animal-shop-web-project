@@ -15,7 +15,8 @@ namespace AnimalWeb.Data
         public DbSet<Categories> Categories { get; set; }
         public DbSet<Animals> Animals { get; set; }
         public DbSet<Comments> Comments { get; set; }
-        //public DbSet<Users> Users { get; set; }
+
+        public DbSet<Users> Users { get; set; }
         //public DbSet<UserAdmin> Admins { get; set; }
 
 
@@ -47,6 +48,12 @@ namespace AnimalWeb.Data
             //modelBuilder.Entity<UserAdmin>().HasData(
             //    new { ID = 1, Comment = "Dogs", AnimalID = 1 }
             //);
+
+            modelBuilder.Entity<Users>().HasData(
+                new {ID= 1,  Email = "yahav99999@gmail.com", Password = "123456" },
+                new {ID=2 ,  Email = "maxim@gmail.com", Password = "1" },
+                new {ID= 3 , Email = "admin@gmail.com", Password = "246810" });
+    
 
         }
 

@@ -1,14 +1,21 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AnimalWeb.Models;
+using AnimalWeb.Repositories;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AnimalWeb.Controllers
 {
     public class AdminController : Controller
     {
-       
+        private IUserRepository _userRepository;
+        public AdminController(IUserRepository repository)
+        {
+            _userRepository = repository;
+        }
         public ActionResult Index()
         {
-            return View();
+            bool isUser = _userRepository.CheckUser("yahav99999@gmail.com", "123456");
+            return Content(isUser.ToString());
         }
         public IActionResult AdminConnectionForm()
         {
@@ -18,75 +25,15 @@ namespace AnimalWeb.Controllers
         {
             return View();
         }
-
-
-        // GET: Admin/Details/5
-        public ActionResult Details(int id)
+        public IActionResult checkAdminDetails(string email , string passward)
         {
-            return View();
-        }
-
-        // GET: Admin/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Admin/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
+            bool isUser = _userRepository.CheckUser(email , passward);
+            if (!isUser)
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("AdminConnectionForm", "Admin");
             }
-            catch
-            {
-                return View();
-            }
+            return RedirectToAction("AllCategories", "Categories", new { isAdmin = isUser });
         }
 
-        // GET: Admin/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: Admin/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Admin/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Admin/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
     }
 }

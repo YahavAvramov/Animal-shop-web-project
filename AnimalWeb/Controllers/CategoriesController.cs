@@ -14,14 +14,15 @@ namespace AnimalWeb.Controllers
         {
             _repository = repository;
         }
-        public IActionResult AllCategories()
+        public IActionResult AllCategories(bool isAdmin=false)
         {
-
+            ViewBag.isAdmin = isAdmin;
             return View(_repository.GetCategories());
         }
        
-        public IActionResult GetCategory(string categoryName)
+        public IActionResult GetCategory(string categoryName , bool isAdmin = false)
         {
+            ViewBag.isAdmin = isAdmin;
             var data = _repository.GetAnimalsByCategory(categoryName);
             return View(data);
         }

@@ -63,10 +63,23 @@
                     <th>
                         @Html.DisplayFor(modelItem => item.Price)
                     </th>
-                    <td>
-                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                        @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-                    </td>
+                    @{
+                        if (ViewBag.isAdmin == true)
+                        {
+                            <td >
+                                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                                @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+                            </td>
+                        }
+                        else
+                        {
+                            <td style="visibility:hidden">
+                                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                                @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+                            </td>
+                        }
+                    }
+                   
                 </tr>
             }
         </tbody>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oFEPUnKf3UGaPbm9tUeWD9o/1GC17YLVx07aS4wkhwY=",
+  "Hash": "ABlsVEvn6l8qXk/VTqlibHV87iyw62ZVfImniQ886pc=",
   "Source": "AnimalWeb",
   "BasePath": "_content/AnimalWeb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AnimalWeb\\wwwroot",
       "Source": "AnimalWeb",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\CategoriesI-icons\\cat-icon.webp",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\CategoriesI-icons\\cat-icon.webp",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/CategoriesI-icons/cat-icon.webp",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\CategoriesI-icons\\cat-icon.webp"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\CategoriesI-icons\\dog-icon.webp",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\CategoriesI-icons\\dog-icon.webp",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/CategoriesI-icons/dog-icon.webp",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\CategoriesI-icons\\dog-icon.webp"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\CategoriesI-icons\\fish-icon.webp",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\CategoriesI-icons\\fish-icon.webp",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/CategoriesI-icons/fish-icon.webp",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\CategoriesI-icons\\fish-icon.webp"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\CategoriesI-icons\\iguana-icon.jpg",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\CategoriesI-icons\\iguana-icon.jpg",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/CategoriesI-icons/iguana-icon.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\CategoriesI-icons\\iguana-icon.jpg"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\CategoriesI-icons\\rabbit-icon.jpg",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\CategoriesI-icons\\rabbit-icon.jpg",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/CategoriesI-icons/rabbit-icon.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\CategoriesI-icons\\rabbit-icon.jpg"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\dog.jpg",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\dog.jpg",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/dog.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\dog.jpg"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\dogCarosel.jpg",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\dogCarosel.jpg",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/dogCarosel.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\dogCarosel.jpg"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\HomePageImg.jpg",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\HomePageImg.jpg",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/HomePageImg.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\HomePageImg.jpg"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\iconGetPet.png",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\iconGetPet.png",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/iconGetPet.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\iconGetPet.png"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\IconNoBackground.png",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\IconNoBackground.png",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/IconNoBackground.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\IconNoBackground.png"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\IconWeb.png",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\IconWeb.png",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/IconWeb.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\IconWeb.png"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\parrotCarosel.jpg",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\parrotCarosel.jpg",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/parrotCarosel.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\parrotCarosel.jpg"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\Assets\\rabbitCarosel.jpg",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\Assets\\rabbitCarosel.jpg",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "Assets/rabbitCarosel.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Assets\\rabbitCarosel.jpg"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\css\\modal.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\css\\modal.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "css/modal.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\modal.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\css\\site.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\favicon.ico",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\js\\site.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "AnimalWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\newestAnimalShop4\\AnimalWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest5\\AnimalWeb\\wwwroot\\",
       "BasePath": "_content/AnimalWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
