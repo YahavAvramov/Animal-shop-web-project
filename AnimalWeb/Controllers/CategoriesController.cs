@@ -45,11 +45,11 @@ namespace AnimalWeb.Controllers
 
 
 
-        public ActionResult Delete(int id, string category)
+        public ActionResult Delete(int id)
         {
+            string categoryName = _repository.GetCategoryById(id);
             _repository.DeleteAnimal(id);
-
-            return (ActionResult)GetCategory(category);
+            return RedirectToAction("GetCategory", "Categories", new { categoryName = categoryName });
         }
 
 
