@@ -19,6 +19,7 @@ namespace AnimalWeb.Controllers
 
             return View(_repository.GetCategories());
         }
+       
         public IActionResult GetCategory(string categoryName)
         {
             var data = _repository.GetAnimalsByCategory(categoryName);
@@ -41,15 +42,14 @@ namespace AnimalWeb.Controllers
         }
 
         // GET: Categories/Delete/5
+
+
+
         public ActionResult Delete(int id, string category)
         {
             _repository.DeleteAnimal(id);
-            return RedirectToAction("GetCategory", "Categories", new
-            {
 
-                id = category
-            
-            }) ;
+            return (ActionResult)GetCategory(category);
         }
 
 
