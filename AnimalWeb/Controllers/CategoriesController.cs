@@ -15,6 +15,7 @@ namespace AnimalWeb.Controllers
         }
         public IActionResult AllCategories()
         {
+            
             return View(_repository.GetCategories());
         }
         public IActionResult GetCategory(string category)
