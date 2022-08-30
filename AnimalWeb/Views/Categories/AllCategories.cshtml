@@ -22,16 +22,15 @@
                 @*                <svg width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" style="border-radius:50%; " fill="#777"></svg>
             <title>@item.Name</title>*@
                 <div class="modal-body modal-centered">
-                    <p><a class="btn btn-secondary" href="@Url.Action(@item.Name, "Categories")">  <img src="@item.CategoryPicture" alt="@item.Name icon" style="height:150px; width:150px; border-radius:50%;" /> </a></p>
+                    <p><a class="btn btn-secondary" href="@Url.Action("GetCategory", "Categories", new { categoryName = item.Name} )">  <img src="@item.CategoryPicture" alt="@item.Name icon" style="height:150px; width:150px; border-radius:50%;" /> </a></p>
                 </div>
                 <div class="modal-footer modal-centered">
                     <h2 class="fw-normal">@Html.DisplayFor(model => item.Name)</h2>
-                    <button type="button" class="btn btn-primary btn-lg" href="@Url.Action(@item.Name, "Categories")"> search @item.Name</button>
-
+                    <a href="@Url.Action("GetCategory", "Categories", new { categoryName = item.Name} )">
+                        <button type="button" class="btn btn-primary btn-lg"> search @item.Name</button>
+                    </a>
                 </div>
-
-
-                @*  each category will have an uniq action with her name that will return the view of her page*@
+                @* each category will have an uniq action with her name that will return the view of her page*@
 
             </div>
         }
@@ -40,7 +39,6 @@
 
 
     <div>
-
     </div>
 </body>
 
