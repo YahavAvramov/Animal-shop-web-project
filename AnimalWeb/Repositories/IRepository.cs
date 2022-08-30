@@ -7,6 +7,7 @@ namespace AnimalWeb.Repositories
         IEnumerable<Animals> GetAnimals();
         IEnumerable<Animals> GetAnimalsByCategory(string category);
         IEnumerable<Categories> GetCategories();
+        string GetCategoryById(int Id);
         IEnumerable<Comments> GetComments();
         void InsertAnimal(Animals animal);
         void UpdateAnimal(int id, Animals animal);

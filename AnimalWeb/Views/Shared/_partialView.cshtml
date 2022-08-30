@@ -16,12 +16,12 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="@Url.Action("AllCategories", "Categories")">Categories<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="@Url.Action("AllCategories", "Categories")">Categories</a></li>
-                    <li><a href="@Url.Action("GetCategory", "Categories")">Dogs</a></li>
-                    <li><a href="@Url.ActionLink("GetCategory", "Categories","Cats")">Cats</a></li>
-                    <li><a href="@Url.Action("GetCategory", "Categories","1")">Fish</a></li>
-                    <li><a href="@Url.Action("GetCategory", "Categories","1")">Rabbits</a></li>
-                    <li><a href="@Url.Action("GetCategory", "Categories","1")">Iguwanas</a></li>
-                    <li><a href="@Url.Action("GetCategory", "Categories","1")">Birds</a></li>
+                    <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Dogs"} )"</a>Dogs</li>
+                    <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Cats"} )"</a>Cats</li>
+                    <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Fish"})">Fish</a></li>
+                    <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Rabbits"})">Rabbits</a></li>
+                    <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Iguanas"})">Iguanas</a></li>
+                    <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Birds"})">Birds</a></li>
 
                 </ul>
             </li>
