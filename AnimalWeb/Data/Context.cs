@@ -30,9 +30,9 @@ namespace AnimalWeb.Data
                 new { ID = 5, Name = "Iguanas", CategoryPicture = @"\Assets\CategoriesI-icons\iguana-icon.jpg" }
             );
             modelBuilder.Entity<Animals>().HasData(
-                new { ID = 1, Name = "Rex", Age = 1, PictureName = "Path", Description = "lorem50", CategoryID = 1, Price = 10},
+                new { ID = 1, Name = "Rex", Age = 1, PictureName = "Path", Description = "lorem50", Price = 10, CategoryID = 1},
                 new { ID = 2, Name = "Miki", Age = 2, PictureName = "Path", Description = "lorem50", CategoryID = 1, Price = 23},
-                new { ID = 3, Name = "Hatul", Age = 3, PictureName = "Path", Description = "lorem50", CategoryID = 2, Price = 11},
+                new { ID = 3, Name = "Hatul", Age = 3, PictureName = "Path", Description = "lorem50", CategoryID = 2, Price = 11 },
                 new { ID = 4, Name = "Nemo", Age = 3, PictureName = "Path", Description = "lorem50", CategoryID = 3, Price = 22 },
                 new { ID = 5, Name = "Bunni", Age = 3, PictureName = "Path", Description = "lorem50", CategoryID = 4, Price = 2 },
                 new { ID = 6, Name = "Baks", Age = 3, PictureName = "Path", Description = "lorem50", CategoryID = 4, Price = 13 },
