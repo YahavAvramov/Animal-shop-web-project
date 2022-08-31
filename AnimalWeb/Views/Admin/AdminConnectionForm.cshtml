@@ -19,19 +19,27 @@
             <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
             <div class="col-sm-10">
                 <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                <script>
+
+                <script type="text/javascript">
+
                     const userEmail = document.getElementById(inputEmail3).innerText;
                     const userPassward = document.getElementById(inputPassword3).innerText;
+
                 </script>
+
             </div>
         </div>
 
         <div class="form-group row">
             <div class="col-sm-10">
-                <a href="@Url.Action("checkAdminDetails", "AdminController" ,new { email =ViewData["userEmail"], passward= ViewData["userPassward"] } )"><button class="btn btn-primary">Sign in</button> </a>
+              @*  <a @*href="@Url.Action("checkAdminDetails", "AdminController" ,new { email =ViewData["userEmail"], passward= ViewData["userPassward"] } )">*@
+                    <button id="SubmitInfo" class="btn btn-primary" onclick="window.location.href('@Url.Action("checkAdminDetails","Admin" , new{email =ViewData["userEmail"] , passward= ViewData["userPassward"] } )})')">Sign in</button>
+             @*   </a>*@
             </div>
         </div>
     </form>
+
+
 
 </body>
 
