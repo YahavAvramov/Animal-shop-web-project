@@ -8,6 +8,7 @@ namespace AnimalWeb.Controllers
     public class AdminController : Controller
     {
         private IUserRepository _userRepository;
+       
         public AdminController(IUserRepository repository)
         {
             _userRepository = repository;
@@ -25,15 +26,18 @@ namespace AnimalWeb.Controllers
         {
             return View();
         }
-        public IActionResult checkAdminDetails(string email , string password)
+        [HttpPost]
+        public IActionResult CheckAdminDetails(string Email, string Password, string ID)
         {
-            bool isUser = _userRepository.CheckUser(email , password);
+            bool isUser = _userRepository.CheckUser(Email , Password);
             if (!isUser)
             {
                 return RedirectToAction("AdminConnectionForm", "Admin");
             }
-            return RedirectToAction("AllCategories", "Categories", new { isAdmin = isUser });
+            return RedirectToAction("SignAdmin", "Categories", new { isAdmin = true });
         }
+
+      
 
     }
 }

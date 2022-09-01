@@ -9,7 +9,13 @@
 
 <body style="background-color:#EEA47FFF">
 
-    <h1> you are at Categories page</h1>
+    
+    @{
+        if (ViewBag.isAdmin == true)
+        {
+            <h1>you are admin!</h1>
+        }
+    }
 
     <div>
 
@@ -33,14 +39,6 @@
                 @* each category will have an uniq action with her name that will return the view of her page*@
 
             </div>
-        }
-        @{
-            if (ViewBag.isAdmin == true)
-            {
-                <div>
-                
-                </div>
-            }
         }
 
 

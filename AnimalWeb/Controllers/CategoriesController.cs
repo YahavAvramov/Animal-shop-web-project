@@ -9,22 +9,37 @@ namespace AnimalWeb.Controllers
     public class CategoriesController : Controller
     {
         private IRepository _repository;
-
+        protected static bool _isAdmin;
         public CategoriesController(IRepository repository)
         {
             _repository = repository;
         }
-        public IActionResult AllCategories(bool isAdmin=false)
+        public IActionResult SignAdmin(bool isAdmin)
         {
-            ViewBag.isAdmin = isAdmin;
+            _isAdmin = isAdmin;
+            return RedirectToAction("AllCategories");
+        }
+        public IActionResult AllCategories()
+        {
+           
+            ViewBag.isAdmin = _isAdmin;
             return View(_repository.GetCategories());
         }
        
-        public IActionResult GetCategory(string categoryName , bool isAdmin = false)
+        public IActionResult GetCategory(string categoryName  )
         {
-            ViewBag.isAdmin = isAdmin;
+
+            ViewBag.isAdmin = _isAdmin;
             var data = _repository.GetAnimalsByCategory(categoryName);
             return View(data);
+        }
+        public IActionResult LogOut()
+        {
+            if (_isAdmin) {
+                _isAdmin = false;
+              
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         // POST: Categories/Create
