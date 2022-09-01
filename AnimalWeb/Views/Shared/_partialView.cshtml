@@ -20,10 +20,10 @@
 
 
 
-                    @foreach (var item in ViewData["Model"].ToString())
+@*                    @foreach (var item in ViewData["Model"])
                     {
                         <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = item , isAdmin = ViewBag.isAdmin} )"></a>item</li>
-                    }
+                    }*@
 
                     <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Dogs"} )"</a>Dogs</li>
                     <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Cats"} )"</a>Cats</li>

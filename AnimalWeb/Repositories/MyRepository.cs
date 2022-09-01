@@ -19,7 +19,7 @@ namespace AnimalWeb.Repositories
         }
         public IEnumerable<Animals> GetAnimalsByCategory(string Category)
         {
-            return _context.Animals.Where(x => x.Category.Name == Category);
+            return _context.Animals.Where(x => x.CategoryName == Category);
         }
         public IEnumerable<Categories> GetCategories()
         {
@@ -27,9 +27,7 @@ namespace AnimalWeb.Repositories
         }
         public string GetCategoryById(int Id)
         {
-            var categoryID = _context.Animals.Single(x => x.ID == Id).CategoryID;
-            var categoryName = _context.Categories.Single(x => x.ID == categoryID).Name;
-            return categoryName;
+            return _context.Animals.Single(x => x.ID == Id).CategoryName;
         }
         public IEnumerable<Comments> GetComments()
         {

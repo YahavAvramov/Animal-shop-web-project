@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a9mrWEJBa0fy6Ppip1KvtGHNq0C7tBLJkcqQDeVWAMCyeY3c6nXCcqUovAJkz1uSJPXc2h/vfpXbEcAtLo14zw==",
+  "dgSpecHash": "2dSTY4Ce2z2RgdIkeRLP8zHk58/TvXFIj2BsExF6zfvHCuYXLyVyjWMiJmYV87U5/RqsWI6pg4+NaXGkjiw5gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maxim\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj",
+  "projectFilePath": "C:\\Users\\Maxim\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maxim\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Maxim\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

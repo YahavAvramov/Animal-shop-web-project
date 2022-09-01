@@ -22,6 +22,9 @@ namespace AnimalWeb.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Animals>().HasOne(a => a.Category).WithMany(c => c.Animals);
+            modelBuilder.Entity<Comments>().HasOne(a => a.Animal).WithMany(c => c.Comments);
+
             modelBuilder.Entity<Categories>().HasData(
                 new { ID = 1, Name = "Dogs", CategoryPicture = @"\Assets\CategoriesI-icons\dog-icon.webp" },
                 new { ID = 2, Name = "Cats", CategoryPicture = @"\Assets\CategoriesI-icons\cat-icon.webp" },
@@ -30,14 +33,14 @@ namespace AnimalWeb.Data
                 new { ID = 5, Name = "Iguanas", CategoryPicture = @"\Assets\CategoriesI-icons\iguana-icon.jpg" }
             );
             modelBuilder.Entity<Animals>().HasData(
-                new { ID = 1, Name = "Rex", Age = 1, PictureName = "Path", Description = "lorem50", Price = 10, CategoryID = 1},
-                new { ID = 2, Name = "Miki", Age = 2, PictureName = "Path", Description = "lorem50", CategoryID = 1, Price = 23},
-                new { ID = 3, Name = "Hatul", Age = 3, PictureName = "Path", Description = "lorem50", CategoryID = 2, Price = 11 },
-                new { ID = 4, Name = "Nemo", Age = 3, PictureName = "Path", Description = "lorem50", CategoryID = 3, Price = 22 },
-                new { ID = 5, Name = "Bunni", Age = 3, PictureName = "Path", Description = "lorem50", CategoryID = 4, Price = 2 },
-                new { ID = 6, Name = "Baks", Age = 3, PictureName = "Path", Description = "lorem50", CategoryID = 4, Price = 13 },
-                new { ID = 7, Name = "Ziki", Age = 3, PictureName = "Path", Description = "lorem50", CategoryID = 5, Price = 15 },
-                new { ID = 8, Name = "Ziko", Age = 3, PictureName = "Path", Description = "lorem50", CategoryID = 5, Price = 10 }
+                new { ID = 1, Name = "Rex", Age = 1, PictureName = "Path", Description = "lorem50", CategoryName = "Dogs", Price = 10},
+                new { ID = 2, Name = "Miki", Age = 2, PictureName = "Path", Description = "lorem50", CategoryName = "Dogs", Price = 23},
+                new { ID = 3, Name = "Hatul", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Cats", Price = 11 },
+                new { ID = 4, Name = "Nemo", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Fish", Price = 22 },
+                new { ID = 5, Name = "Bunni", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Rabbits", Price = 2 },
+                new { ID = 6, Name = "Baks", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Rabbits", Price = 13 },
+                new { ID = 7, Name = "Ziki", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Iguanas", Price = 15 },
+                new { ID = 8, Name = "Ziko", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Iguanas", Price = 10 }
             );  
             modelBuilder.Entity<Comments>().HasData(
                 new { ID = 1, Comment = "Dogs", AnimalID = 1}

@@ -16,8 +16,8 @@ namespace AnimalWeb.Models
         public string PictureName { get; set; }
         public string Description { get; set; }
         public int Price { get; set; }
-        public int CategoryID { get; set; }
-        public virtual Categories? Category { get; set; }
+        public string CategoryName { get; set; }
+        public virtual Categories Category { get; set; }
         public virtual ICollection<Comments>? Comments { get; set; }
     }
 }
