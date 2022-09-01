@@ -9,8 +9,8 @@ namespace AnimalWeb.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ID { get; set; }
         public string Name { get; set; }
+        public int ID { get; set; }
         public string CategoryPicture { get; set; }
         public virtual ICollection<Animals> Animals {get; set;}
     }
