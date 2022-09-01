@@ -25,9 +25,9 @@ namespace AnimalWeb.Controllers
         {
             return View();
         }
-        public IActionResult checkAdminDetails(string email , string passward)
+        public IActionResult checkAdminDetails(string email , string password)
         {
-            bool isUser = _userRepository.CheckUser(email , passward);
+            bool isUser = _userRepository.CheckUser(email , password);
             if (!isUser)
             {
                 return RedirectToAction("AdminConnectionForm", "Admin");

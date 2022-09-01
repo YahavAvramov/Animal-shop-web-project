@@ -33,9 +33,9 @@
         <div class="form-group row">
             <div class="col-sm-10">
                 @{
-                    var href = @Url.Action("checkAdminDetails", "Admin", new { email = ViewData["userEmail"], passward = ViewData["userPassward"] });
+                    var href = @Url.Action("checkAdminDetails", "Admin", new { email = ViewData["userEmail"], password = ViewData["userPassword"] });
                 }
-                @*  <a @*href="@Url.Action("checkAdminDetails", "AdminController" ,new { email =ViewData["userEmail"], passward= ViewData["userPassward"] } )">*@
+                @*  <a @*href="@Url.Action("checkAdminDetails", "AdminController" ,new { email =ViewData["userEmail"], password= ViewData["userPassword"] } )">*@
                 <button id="SubmitInfo" class="btn btn-primary" onclick="window.location='@href'">Sign in</button>
                 @*   </a>*@
             </div>

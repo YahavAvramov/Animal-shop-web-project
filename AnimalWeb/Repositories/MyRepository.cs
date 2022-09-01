@@ -1,5 +1,6 @@
 ﻿using AnimalWeb.Models;
 using AnimalWeb.Data;
+using System.Data.Entity;
 
 namespace AnimalWeb.Repositories
 {
@@ -9,7 +10,7 @@ namespace AnimalWeb.Repositories
 
         public MyRepository(Context context)
         {
-            _context = context;
+            _context = context; 
         }
 
         public IEnumerable<Animals> GetAnimals()
@@ -26,7 +27,9 @@ namespace AnimalWeb.Repositories
         }
         public string GetCategoryById(int Id)
         {
-            return _context.Categories.Single(x => x.ID == Id).Name.ToString();
+            var categoryID = _context.Animals.Single(x => x.ID == Id).CategoryID;
+            var categoryName = _context.Categories.Single(x => x.ID == categoryID).Name;
+            return categoryName;
         }
         public IEnumerable<Comments> GetComments()
         {

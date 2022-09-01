@@ -1,4 +1,10 @@
-﻿@{
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<AnimalWeb.Models.Categories>
+
+    @foreach(var item in Model){  
+    ViewData["Model"] = ViewData["Model"] + " " + item.Name;
+}
+@{
     ViewData["Title"] = "Home Page";
 
 }
