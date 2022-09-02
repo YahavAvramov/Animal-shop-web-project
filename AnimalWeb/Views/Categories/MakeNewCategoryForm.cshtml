@@ -1,0 +1,39 @@
+﻿@model Categories
+@{
+    ViewData["Title"] = "MakeNewCategoryForm";
+}
+<head>
+
+</head>
+<body>
+    <h1>create category</h1>
+  @*  <form action="">
+
+        <label for="CategoryName">Category Name:</label><br>
+        <input type="text" name="CategoryName" placeholder="category name"><br>
+
+        <label for="CategoryID"> ID</label><br>
+        <input type="text" name="CategoryID" placeholder="213"><br><br>
+
+        <label for="CategoryPictureString"> URL Picture</label> <br>
+        <input type="text" name="CategoryPictureString" placeholder="https://cdn.pixabay.com/photo/2012/04/23/15/41/question-38595_960_720.png"><br><br>
+        <input type="submit" value="Submit" />
+
+    </form>*@
+    @using (Html.BeginForm("CreateCategory", "Categories", FormMethod.Post))
+    {
+        <span>Category Name:</span> @Html.TextBoxFor(m => m.Name)
+        <br />
+        <span >ID: </span> @Html.TextBoxFor(m => m.ID)
+        <br />
+        <span>URL Picture </span> @Html.TextBoxFor(m => m.CategoryPicture)
+        <br />
+
+        <input id="Submit" type="submit" value="submit" />
+    }
+
+
+</body>
+
+
+

@@ -13,6 +13,7 @@ namespace AnimalWeb.Repositories
             _context = context; 
         }
 
+
         public IEnumerable<Animals> GetAnimals()
         {
             return _context.Animals!;
@@ -73,7 +74,16 @@ namespace AnimalWeb.Repositories
             _context.Comments!.Add(comment);
             _context.SaveChanges();
         }
-       
+
+        public void CreateCategory(string name, int id, string categoryURLpictuer)
+        {
+            Categories newCategory = new Categories();
+            newCategory.Name = name;
+            newCategory.ID = id;
+            newCategory.CategoryPicture = categoryURLpictuer;
+            _context.Categories.Add(newCategory);
+            _context.SaveChanges();
+        }
     }
 }
 

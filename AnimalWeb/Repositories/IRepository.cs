@@ -15,5 +15,6 @@ namespace AnimalWeb.Repositories
         void InsertCategory(Categories category);
         void DeleteCategoty(int id);
         void InsertComment(Comments comment);
+        void CreateCategory(string name , int id , string categoryURLpictuer);
     }
 }

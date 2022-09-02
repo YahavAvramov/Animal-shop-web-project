@@ -9,11 +9,11 @@
 
 <body style="background-color:#EEA47FFF">
 
-    
+
     @{
         if (ViewBag.isAdmin == true)
         {
-            <h1>you are admin!</h1>
+                <h1>you are admin!</h1>
         }
     }
 
@@ -24,9 +24,6 @@
         {
 
             <div class="modal-content shadow col-lg-3 col-md-4 category-modul">
-
-                @*                <svg width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" style="border-radius:50%; " fill="#777"></svg>
-            <title>@item.Name</title>*@
                 <div class="modal-body modal-centered">
                     <p><a class="btn btn-secondary" href="@Url.Action("GetCategory", "Categories", new { categoryName = item.Name} )">  <img src="@item.CategoryPicture" alt="@item.Name icon" style="height:150px; width:150px; border-radius:50%;" /> </a></p>
                 </div>
@@ -41,12 +38,24 @@
             </div>
         }
 
+        @if (ViewBag.isAdmin)
+        {
+            <div class="modal-content shadow col-lg-3 col-md-4 category-modul Add-category" >
+                <div class="modal-body modal-centered">
+                    <p><a class="btn btn-secondary" href="@Url.Action("MakeNewCategoryForm", "Categories" )">  <img src="\Assets\CategoriesI-icons\addCategory.png" alt="pluse icon to add category" style="height:150px; width:150px; border-radius:50%;"  /> </a></p>
+                </div>
+                <div class="modal-footer modal-centered">
+                    <h2 class="fw-normal">Add category</h2>
+                    <a href="@Url.Action("MakeNewCategoryForm", "Categories")">
+                        <button type="button" class="btn btn-primary btn-lg"> Add</button>
+                    </a>
+                </div>
 
-    </div>
+            </div>
 
-
-    <div>
-    </div>
+        }
+        <div>
+        </div>
 </body>
 
 

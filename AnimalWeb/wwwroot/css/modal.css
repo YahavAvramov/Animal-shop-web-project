@@ -13,7 +13,10 @@
     background-color: #00539CFF;
     color: white;
 }
-#Home:hover{
-
-   
+.Add-category {
+    background-color: dimgray;
+    opacity: 0.5;
+}
+.Add-category:hover{
+    background-color:aliceblue;
 }

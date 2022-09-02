@@ -21,12 +21,23 @@ namespace AnimalWeb.Controllers
         }
         public IActionResult AllCategories()
         {
-           
             ViewBag.isAdmin = _isAdmin;
             return View(_repository.GetCategories());
         }
-       
-        public IActionResult GetCategory(string categoryName  )
+        public IActionResult MakeNewCategoryForm()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult CreateCategory( string Name, int ID, string CategoryPicture)
+        {
+            _repository.CreateCategory(Name, ID, CategoryPicture);
+
+            return RedirectToAction("AllCategories");
+        }
+
+
+        public IActionResult GetCategory(string categoryName)
         {
 
             ViewBag.isAdmin = _isAdmin;

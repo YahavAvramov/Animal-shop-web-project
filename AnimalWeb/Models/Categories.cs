@@ -12,7 +12,7 @@ namespace AnimalWeb.Models
         public string Name { get; set; }
         public int ID { get; set; }
         public string CategoryPicture { get; set; }
-        public virtual ICollection<Animals> Animals {get; set;}
+        public virtual ICollection<Animals>? Animals {get; set;}
     }
 
 }
