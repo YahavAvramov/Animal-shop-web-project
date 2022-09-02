@@ -1,0 +1,26 @@
+﻿@model Animals
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+
+</head>
+
+<body>
+@using (Html.BeginForm("SaveAnimalChanges", "Categories", FormMethod.Post))
+{
+    <span>Animal Age:</span> @Html.TextBoxFor(m => m.Name)<br />
+    <span>Animal Name: </span> @Html.TextBoxFor(m => m.Age)<br />
+    <span>Animal Price: </span> @Html.TextBoxFor(m => m.Price)<br />
+    <span>Animal Discription: </span> @Html.TextBoxFor(m => m.Description)<br />
+    <span>Animal photo: </span> @Html.TextBoxFor(m => m.PictureName)<br />
+    <label style="visibility:collapse">   @Html.TextBoxFor(m => m.ID)</label>
+  
+
+    <input id = "Submit" type = "submit" value = "submit" />
+}
+ 
+
+</body>
+

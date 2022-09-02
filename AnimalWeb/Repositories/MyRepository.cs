@@ -41,14 +41,14 @@ namespace AnimalWeb.Repositories
             _context.SaveChanges();
         }
 
-        public void UpdateAnimal(int id, Animals animal)
+        public void UpdateAnimal(string name, int age, int price, string description, string pictureURL, int id)
         {
             var animalInDb = _context.Animals!.Single(m => m.ID == id);
-            animalInDb.Name = animal.Name;
-            animalInDb.Age = animal.Age;
-            animalInDb.PictureName = animal.PictureName;
-            animalInDb.Description = animal.Description;
-            animalInDb.Price = animal.Price;
+            animalInDb.Name = name;
+            animalInDb.Age = age;
+            animalInDb.PictureName = pictureURL;
+            animalInDb.Description = description;
+            animalInDb.Price = price;
             _context.SaveChanges();
         }
 
@@ -63,9 +63,9 @@ namespace AnimalWeb.Repositories
             _context.Categories!.Add(category);
             _context.SaveChanges();
         }
-        public void DeleteCategoty(int id)
+        public void DeleteCategoty(string categoryName)
         {
-            var category = _context.Categories!.Single(m => m.ID == id);
+            var category = _context.Categories!.Single(m => m.Name == categoryName);
             _context.Categories!.Remove(category);
             _context.SaveChanges();
         }
@@ -75,14 +75,19 @@ namespace AnimalWeb.Repositories
             _context.SaveChanges();
         }
 
-        public void CreateCategory(string name, int id, string categoryURLpictuer)
+        public void CreateCategory(string name, string categoryURLpictuer)
         {
             Categories newCategory = new Categories();
             newCategory.Name = name;
-            newCategory.ID = id;
             newCategory.CategoryPicture = categoryURLpictuer;
             _context.Categories.Add(newCategory);
             _context.SaveChanges();
+        }
+
+
+        public Animals GetAnimalById(int id)
+        {
+            return _context.Animals.Where(a => a.ID == id).First();
         }
     }
 }

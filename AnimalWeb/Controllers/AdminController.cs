@@ -29,6 +29,7 @@ namespace AnimalWeb.Controllers
         [HttpPost]
         public IActionResult CheckAdminDetails(string Email, string Password, string ID)
         {
+           
             bool isUser = _userRepository.CheckUser(Email , Password);
             if (!isUser)
             {

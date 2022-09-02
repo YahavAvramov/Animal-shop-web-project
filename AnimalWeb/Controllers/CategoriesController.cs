@@ -29,9 +29,9 @@ namespace AnimalWeb.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult CreateCategory( string Name, int ID, string CategoryPicture)
+        public IActionResult CreateCategory(string Name, string CategoryPicture)
         {
-            _repository.CreateCategory(Name, ID, CategoryPicture);
+            _repository.CreateCategory(Name, CategoryPicture);
 
             return RedirectToAction("AllCategories");
         }
@@ -46,9 +46,10 @@ namespace AnimalWeb.Controllers
         }
         public IActionResult LogOut()
         {
-            if (_isAdmin) {
+            if (_isAdmin)
+            {
                 _isAdmin = false;
-              
+
             }
             return RedirectToAction("Index", "Home");
         }
@@ -67,10 +68,18 @@ namespace AnimalWeb.Controllers
                 return View();
             }
         }
+        public IActionResult Edit(int id)
+        {
+            return View(_repository.GetAnimalById(id));
+        }
+        [HttpPost]
+        public ActionResult SaveAnimalChanges(string name , int age , int price , string description, string pictureName , int id)
+        {
+            _repository.UpdateAnimal(name, age, price, description, pictureName , id);
+            string categoryName = _repository.GetCategoryById(id);
 
-        // GET: Categories/Delete/5
-
-
+            return RedirectToAction("GetCategory", "Categories", new { categoryName = categoryName });
+        }
 
         public ActionResult Delete(int id)
         {
