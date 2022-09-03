@@ -1,0 +1,71 @@
+﻿@model Animals
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Create new animal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+
+</head>
+<body>
+    <h1 style="margin-top:50px; margin-left:50%;">Create new animal</h1>
+    <br />
+
+    @using (Html.BeginForm("SaveAnimalToDb", "Categories", FormMethod.Post))
+    {
+        <table class="create-animal-form">
+            <tr>
+                <th>
+                    <span>Name: </span>
+                </th>
+                <th>
+                    @Html.TextBoxFor(m => m.Name)
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <span>Age: </span>
+                </th>
+                <th>
+                    @Html.TextBoxFor(m => m.Age)
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <span>PictureURL: </span>
+                </th>
+                <th>
+                    @Html.TextBoxFor(m => m.PictureName)
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <span>Category: </span>
+                </th>
+                <th>
+                    @Html.TextBoxFor(m => m.CategoryName)
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <span>Description: </span>
+                </th>
+                <th>
+                    @Html.TextBoxFor(m => m.Description)
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <span>Price: </span>
+                </th>
+                <th>
+                    @Html.TextBoxFor(m => m.Price)
+                </th>
+            </tr>
+        </table>
+        <input id="Submit" type="submit" value="submit" />
+    }
+</body>
+

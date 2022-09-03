@@ -35,8 +35,17 @@ namespace AnimalWeb.Repositories
             return _context.Comments!;
         }
 
-        public void InsertAnimal(Animals animal)
+        public void CreateAnimal(string name, int age, int price, string description, string pictureName, string categoryName)
         {
+            int id = 9;
+            Animals animal = new Animals();
+            animal.ID = id;
+            animal.Name = name;
+            animal.Age = age;
+            animal.Price = price;
+            animal.Description = description;
+            animal.PictureName = pictureName;
+            animal.CategoryName = categoryName;
             _context.Animals!.Add(animal);
             _context.SaveChanges();
         }
@@ -56,11 +65,6 @@ namespace AnimalWeb.Repositories
         {
             var animal = _context.Animals!.Single(m => m.ID == id);
             _context.Animals!.Remove(animal);
-            _context.SaveChanges();
-        }
-        public void InsertCategory(Categories category)
-        {
-            _context.Categories!.Add(category);
             _context.SaveChanges();
         }
         public void DeleteCategoty(string categoryName)

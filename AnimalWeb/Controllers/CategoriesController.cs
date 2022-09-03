@@ -35,8 +35,6 @@ namespace AnimalWeb.Controllers
 
             return RedirectToAction("AllCategories");
         }
-
-
         public IActionResult GetCategory(string categoryName)
         {
 
@@ -49,31 +47,25 @@ namespace AnimalWeb.Controllers
             if (_isAdmin)
             {
                 _isAdmin = false;
-
             }
             return RedirectToAction("Index", "Home");
         }
-
-        // POST: Categories/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public IActionResult CreateAnimal()
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            return View();
+        }
+        [HttpPost]
+        public IActionResult SaveAnimalToDb(string name, int age, int price, string description, string pictureName, string categoryName)
+        {
+            _repository.CreateAnimal(name, age, price, description, pictureName, categoryName);
+            return RedirectToAction("GetCategory", "Categories", new { categoryName = categoryName });
         }
         public IActionResult Edit(int id)
         {
             return View(_repository.GetAnimalById(id));
         }
         [HttpPost]
-        public ActionResult SaveAnimalChanges(string name , int age , int price , string description, string pictureName , int id)
+        public IActionResult SaveAnimalChanges(string name , int age , int price , string description, string pictureName , int id)
         {
             _repository.UpdateAnimal(name, age, price, description, pictureName , id);
             string categoryName = _repository.GetCategoryById(id);
@@ -81,7 +73,7 @@ namespace AnimalWeb.Controllers
             return RedirectToAction("GetCategory", "Categories", new { categoryName = categoryName });
         }
 
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {
             string categoryName = _repository.GetCategoryById(id);
             _repository.DeleteAnimal(id);

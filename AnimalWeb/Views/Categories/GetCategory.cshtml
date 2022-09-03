@@ -14,9 +14,14 @@
     <title>View</title>
 </head>
 <body>
-    <p>
-        <a asp-action="Create">Create New</a>
-    </p>
+    @{
+        if (ViewBag.isAdmin == true)
+        {
+            <p>
+                <a asp-action="CreateAnimal">Create New Animal</a>
+            </p>
+        }
+    }
     <table class="table">
         <thead>
             <tr>
@@ -66,20 +71,13 @@
                     @{
                         if (ViewBag.isAdmin == true)
                         {
-                            <td >
+                            <td>
                                 @Html.ActionLink("Edit", "Edit", new {id=item.ID  }) |
                                 @Html.ActionLink("Delete", "Delete", new { id=item.ID })
                             </td>
                         }
-                        //else
-                        //{
-                        //    <td style="visibility:visible">
-                        //        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                        //        @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-                        //    </td>
-                        //}
                     }
-                   
+
                 </tr>
             }
         </tbody>

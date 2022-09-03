@@ -9,10 +9,9 @@ namespace AnimalWeb.Repositories
         IEnumerable<Categories> GetCategories();
         string GetCategoryById(int Id);
         IEnumerable<Comments> GetComments();
-        void InsertAnimal(Animals animal);
+        void CreateAnimal(string name, int age, int price, string description, string pictureName, string categoryName);
         void UpdateAnimal( string name , int age , int price , string description , string pictureURL, int id );
         void DeleteAnimal(int id);
-        void InsertCategory(Categories category);
         void DeleteCategoty(string categoryName);
         void InsertComment(Comments comment);
         void CreateCategory(string name , string categoryURLpictuer);
