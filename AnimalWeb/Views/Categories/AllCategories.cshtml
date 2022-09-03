@@ -4,16 +4,17 @@
 
 @{
     ViewData["Title"] = "Categoris";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <link rel="stylesheet" href="/css/modal.css">
 
-<body style="background-color:#EEA47FFF">
+<body>
 
 
     @{
         if (ViewBag.isAdmin == true)
         {
-                <h1>you are admin!</h1>
+            <h1>you are admin!</h1>
         }
     }
 
@@ -40,9 +41,9 @@
 
         @if (ViewBag.isAdmin)
         {
-            <div class="modal-content shadow col-lg-3 col-md-4 category-modul Add-category" >
+            <div class="modal-content shadow col-lg-3 col-md-4 category-modul Add-category">
                 <div class="modal-body modal-centered">
-                    <p><a class="btn btn-secondary" href="@Url.Action("MakeNewCategoryForm", "Categories" )">  <img src="\Assets\CategoriesI-icons\addCategory.png" alt="pluse icon to add category" style="height:150px; width:150px; border-radius:50%;"  /> </a></p>
+                    <p><a class="btn btn-secondary" href="@Url.Action("MakeNewCategoryForm", "Categories" )">  <img src="\Assets\CategoriesI-icons\addCategory.png" alt="pluse icon to add category" style="height:150px; width:150px; border-radius:50%;" /> </a></p>
                 </div>
                 <div class="modal-footer modal-centered">
                     <h2 class="fw-normal">Add category</h2>
@@ -54,8 +55,7 @@
             </div>
 
         }
-        <div>
-        </div>
+    </div>
 </body>
 
 

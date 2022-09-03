@@ -1,74 +1,73 @@
 ﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @model IEnumerable<AnimalWeb.Models.Categories>
 
-@*    @foreach(var item in Model){  
-    ViewData["Model"] = ViewData["Model"] + " " + item.Name;
-}*@
 @{
     ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>MainWindow</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body style="background-color:chocolate">
-  <img src="\Assets\iconGetPet.png" alt="icon" width="500" height="300" style="margin-left:30%; margin-top:-40px;"/>
-<div class="container">
+<body>
+    <img src="\Assets\iconGetPet.png" alt="icon" width="500" height="300" style="margin-left:30%; margin-top:-40px;" />
+    <div class="container">
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
 
-      <div class="item active"  >
-        <img src="\Assets\dogCarosel.jpg" alt="Dog" style="width:100%; border-radius:20px;">
-        <div class="carousel-caption">
-          <h3>you can find here Dogs </h3>
-          <p>Dogs can be the best pet for familys with kids , what are you wating for find your dog now!</p>
+                <div class="item active">
+                    <img src="\Assets\dogCarosel.jpg" alt="Dog" style="width:100%; border-radius:20px;">
+                    <div class="carousel-caption">
+                        <h3>you can find here Dogs </h3>
+                        <p>Dogs can be the best pet for familys with kids , what are you wating for find your dog now!</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="\Assets\parrotCarosel.jpg" alt="Parrot" style="width:100%;border-radius:20px;">
+                    <div class="carousel-caption">
+                        <h3>Parrot</h3>
+                        <p>Parrot is an intelgant animal, you can have fun loking to here bouty and impress by here clever</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="\Assets\rabbitCarosel.jpg" alt="Rabbit" style="width:100%;border-radius:20px;">
+                    <div class="carousel-caption">
+                        <h3>Rabbit</h3>
+                        <p>Rabbit will always be down for scraches and carots! </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-      </div>
-
-      <div class="item">
-        <img src="\Assets\parrotCarosel.jpg" alt="Parrot" style="width:100%;border-radius:20px;">
-        <div class="carousel-caption">
-          <h3>Parrot</h3>
-          <p>Parrot is an intelgant animal, you can have fun loking to here bouty and impress by here clever</p>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="\Assets\rabbitCarosel.jpg" alt="Rabbit" style="width:100%;border-radius:20px;">
-        <div class="carousel-caption">
-          <h3>Rabbit</h3>
-          <p>Rabbit will always be down for scraches and carots! </p>
-        </div>
-      </div>
-  
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
 
 </body>
 </html>

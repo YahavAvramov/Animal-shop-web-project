@@ -10,7 +10,7 @@
 
 
         </div>
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav ">
             <li class="active" id="Home"><a href="@Url.Action("Index", "Home")">Home</a></li>
 
             <li class="dropdown">
@@ -20,9 +20,9 @@
 
 
 
-@*                    @foreach (var item in ViewData["Model"])
+                    @*                    @foreach (var item in ViewData["Model"])
                     {
-                        <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = item , isAdmin = ViewBag.isAdmin} )"></a>item</li>
+                    <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = item , isAdmin = ViewBag.isAdmin} )"></a>item</li>
                     }*@
 
                     <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Dogs"} )"</a>Dogs</li>
@@ -36,8 +36,17 @@
             </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="@Url.Action("LogOut", "Categories")"><span  class="glyphicon glyphicon-log-in" ></span> Log Out</a></li>
-            <li><a href="@Url.Action("AdminConnectionForm", "Admin")"><span class="glyphicon glyphicon-user" ></span> Login</a></li>
+            @{
+                if (ViewBag.isAdmin == true)
+                {
+                    <li><a href="@Url.Action("LogOut", "Categories")"><span class="glyphicon glyphicon-log-in"></span> Log Out</a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+                }
+                else
+                {
+                    <li><a href="@Url.Action("AdminConnectionForm", "Admin")"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+                }
+            } 
         </ul>
     </div>
 </nav>

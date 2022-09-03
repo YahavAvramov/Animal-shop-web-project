@@ -1,5 +1,4 @@
-﻿
-@model Users
+﻿@model Users
 
 @{
     ViewData["Title"] = "AdminPage";
@@ -9,21 +8,33 @@
 </head>
 
 <body style="background-color:gray">
-    <h1 style="margin-top:50px; margin-left:50%;">Login Info</h1>
+    <h1 style="margin-top:50px; margin-left:50%;">LogIn Form</h1>
     <br />
 
- 
-<h1>Html.DisplayFor Example</h1>
- 
-@using (Html.BeginForm("CheckAdminDetails", "Admin", FormMethod.Post))
-{
-    <span>Enter Your Email:</span> @Html.TextBoxFor(m => m.Email)<br />
-    <span>Enter Your Password: </span> @Html.TextBoxFor(m => m.Password)<br />
- 
+    @using (Html.BeginForm("CheckAdminDetails", "Admin", FormMethod.Post))
+    {
+        <table class="log-in-form">
+            <tr>
+                <th>
+                    <span>Enter Your Email:</span>
+                </th>
+                <th>
+                    @Html.TextBoxFor(m => m.Email)
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <span>Enter Your Password: </span>
+                </th>
+                <th>
+                    @Html.TextBoxFor(m => m.Password)
+                </th>
+            </tr>
+        </table>
+        
+        <input id="Submit" type="submit" value="submit" />
+    }
 
-    <input id = "Submit" type = "submit" value = "submit" />
-}
- 
 
 
 </body>
