@@ -11,6 +11,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+   <link rel="stylesheet" href="/css/modal.css">
     <title>View</title>
 </head>
 <body>
@@ -22,65 +23,93 @@
             </p>
         }
     }
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.ID)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Name)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Age)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.PictureName)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Description)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Price)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <th>
-                        @Html.DisplayFor(modelItem => item.ID)
-                    </th>
-                    <th>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </th>
-                    <th>
-                        @Html.DisplayFor(modelItem => item.Age)
-                    </th>
-                    <th>
-                        @Html.DisplayFor(modelItem => item.PictureName)
-                    </th>
-                    <th>
-                        @Html.DisplayFor(modelItem => item.Description)
-                    </th>
-                    <th>
-                        @Html.DisplayFor(modelItem => item.Price)
-                    </th>
-                    @{
-                        if (ViewBag.isAdmin == true)
-                        {
-                            <td>
-                                @Html.ActionLink("Edit", "Edit", new {id=item.ID  }) |
-                                @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-                            </td>
-                        }
-                    }
+    @* <table class="table">
+    <thead>
+    <tr>
+    <th>
+    @Html.DisplayNameFor(model => model.ID)
+    </th>
+    <th>
+    @Html.DisplayNameFor(model => model.Name)
+    </th>
+    <th>
+    @Html.DisplayNameFor(model => model.Age)
+    </th>
+    <th>
+    @Html.DisplayNameFor(model => model.PictureName)
+    </th>
+    <th>
+    @Html.DisplayNameFor(model => model.Description)
+    </th>
+    <th>
+    @Html.DisplayNameFor(model => model.Price)
+    </th>
+    <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+    <tr>
+    <th>
+    @Html.DisplayFor(modelItem => item.ID)
+    </th>
+    <th>
+    @Html.DisplayFor(modelItem => item.Name)
+    </th>
+    <th>
+    @Html.DisplayFor(modelItem => item.Age)
+    </th>
+    <th>
+    @Html.DisplayFor(modelItem => item.PictureName)
+    </th>
+    <th>
+    @Html.DisplayFor(modelItem => item.Description)
+    </th>
+    <th>
+    @Html.DisplayFor(modelItem => item.Price)
+    </th>
+    @{
+    if (ViewBag.isAdmin == true)
+    {
+    <td>
+    @Html.ActionLink("Edit", "Edit", new {id=item.ID  }) |
+    @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+    </td>
+    }
+    }
 
-                </tr>
+    </tr>
+    }
+    </tbody>
+    </table>*@
+
+    @foreach (var Animal in Model)
+    {
+        <div class="modal-content shadow col-lg-3 col-md-4 Animal-modul ">
+            <div class="modal-body modal-centered">
+                <p><a class="btn btn-secondary" href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = Animal.ID} )">  <img src="@Animal.PictureName" alt="@Animal.Name icon" style="height:150px; width:150px; border-radius:50%;" /> </a></p>
+            </div>
+            <div class="modal-footer modal-centered">
+                <h2 class="fw-normal">@Html.DisplayFor(model => Animal.Name)</h2>
+                <label>@Animal.Description</label>
+                <br/>
+                <br/>
+                <a href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = Animal.ID , isAdmin = ViewBag.isAdmin} )">
+                    <button type="button" class="btn btn-primary btn-lg">$ @Animal.Price</button>
+                </a><br/>
+             
+            </div>
+            @if (ViewBag.isAdmin == true)
+            {
+            <td id="Animal-actions">
+                @Html.ActionLink("Edit", "Edit", new {id=Animal.ID  }) |
+                @Html.ActionLink("Delete", "Delete", new { id=Animal.ID })
+            </td>
             }
-        </tbody>
-    </table>
+
+        </div>
+
+    }
 </body>
 </html>

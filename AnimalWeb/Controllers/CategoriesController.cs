@@ -37,7 +37,6 @@ namespace AnimalWeb.Controllers
         }
         public IActionResult GetCategory(string categoryName)
         {
-
             ViewBag.isAdmin = _isAdmin;
             var data = _repository.GetAnimalsByCategory(categoryName);
             return View(data);
@@ -65,9 +64,9 @@ namespace AnimalWeb.Controllers
             return View(_repository.GetAnimalById(id));
         }
         [HttpPost]
-        public IActionResult SaveAnimalChanges(string name , int age , int price , string description, string pictureName , int id)
+        public IActionResult SaveAnimalChanges(string name, int age, int price, string description, string pictureName, int id)
         {
-            _repository.UpdateAnimal(name, age, price, description, pictureName , id);
+            _repository.UpdateAnimal(name, age, price, description, pictureName, id);
             string categoryName = _repository.GetCategoryById(id);
 
             return RedirectToAction("GetCategory", "Categories", new { categoryName = categoryName });
@@ -79,7 +78,15 @@ namespace AnimalWeb.Controllers
             _repository.DeleteAnimal(id);
             return RedirectToAction("GetCategory", "Categories", new { categoryName = categoryName });
         }
+        public IActionResult GetCommentsForAnimal(int Id)
+        {
+
+            return View(_repository.GetCommentsById(Id));
+        }
+
 
 
     }
+
 }
+
