@@ -71,7 +71,6 @@ namespace AnimalWeb.Controllers
 
             return RedirectToAction("GetCategory", "Categories", new { categoryName = categoryName });
         }
-
         public IActionResult Delete(int id)
         {
             string categoryName = _repository.GetCategoryById(id);

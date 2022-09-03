@@ -1,19 +1,15 @@
 ﻿using AnimalWeb.Models;
 using AnimalWeb.Data;
-using System.Data.Entity;
 
 namespace AnimalWeb.Repositories
 {
     public class MyRepository : IRepository
     {
         private Context _context;
-
         public MyRepository(Context context)
         {
             _context = context; 
         }
-
-
         public IEnumerable<Animals> GetAnimals()
         {
             return _context.Animals!;
@@ -30,16 +26,13 @@ namespace AnimalWeb.Repositories
         {
             return _context.Animals.Single(x => x.ID == Id).CategoryName;
         }
-        public IEnumerable<Comments> GetComments()
+        public IEnumerable<Comments> GetCommentsById(int Id)
         {
-            return _context.Comments!;
+            return _context.Comments.Where(x => x.Animal.ID == Id);
         }
-
         public void CreateAnimal(string name, int age, int price, string description, string pictureName, string categoryName)
         {
-            int id = 9;
             Animals animal = new Animals();
-            animal.ID = id;
             animal.Name = name;
             animal.Age = age;
             animal.Price = price;
@@ -49,7 +42,6 @@ namespace AnimalWeb.Repositories
             _context.Animals!.Add(animal);
             _context.SaveChanges();
         }
-
         public void UpdateAnimal(string name, int age, int price, string description, string pictureURL, int id)
         {
             var animalInDb = _context.Animals!.Single(m => m.ID == id);
@@ -60,7 +52,6 @@ namespace AnimalWeb.Repositories
             animalInDb.Price = price;
             _context.SaveChanges();
         }
-
         public void DeleteAnimal(int id)
         {
             var animal = _context.Animals!.Single(m => m.ID == id);
@@ -73,12 +64,13 @@ namespace AnimalWeb.Repositories
             _context.Categories!.Remove(category);
             _context.SaveChanges();
         }
-        public void InsertComment(Comments comment)
+        public void AddComment(string comment, int Id)
         {
-            _context.Comments!.Add(comment);
+            Comments comments = new Comments();
+            comments.Comment = comment;
+            _context.Comments!.Add(comments);
             _context.SaveChanges();
         }
-
         public void CreateCategory(string name, string categoryURLpictuer)
         {
             Categories newCategory = new Categories();
@@ -87,8 +79,6 @@ namespace AnimalWeb.Repositories
             _context.Categories.Add(newCategory);
             _context.SaveChanges();
         }
-
-
         public Animals GetAnimalById(int id)
         {
             return _context.Animals.Where(a => a.ID == id).First();
