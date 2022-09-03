@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PBLFPRezC5qTEMzQOAB5wFbI4200K3o9XL3maMKurNACvWttzCzuXu7eR7h3mRkw7bPzS7RblOWdPVgefScr5w==",
+  "dgSpecHash": "HV87kDUTMzH4Wc/mlCrEM8syu5qzTwk3svw24iGtUuzLyl7S/GF+l0wLtoresuCcQ9HuXgEXdZE26Q7Ylu9Y4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest\\AnimalWeb\\AnimalWeb.csproj",
+  "projectFilePath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShop7\\AnimalWeb\\AnimalWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yahav\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\yahav\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
@@ -173,12 +173,5 @@
     "C:\\Users\\yahav\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\yahav\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest\\AnimalWeb\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
