@@ -44,7 +44,10 @@ namespace AnimalWeb.Data
                 new { ID = 8, Name = "Ziko", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Iguanas", Price = 10 }
             );  
             modelBuilder.Entity<Comments>().HasData(
-                new { ID = 1, Comment = "Dogs", AnimalID = 1}
+                new { ID = 1, Comment = "Dogs", AnimalID = 1},
+                new { ID = 2, Comment = "what a cuty", AnimalID = 1},
+                new { ID = 3, Comment = "i want one", AnimalID = 1},
+                new { ID = 4, Comment = "lets buy it", AnimalID = 1}
             );
             //modelBuilder.Entity<Users>().HasData(
             //    new { ID = 1, Comment = "Dogs", AnimalID = 1 }

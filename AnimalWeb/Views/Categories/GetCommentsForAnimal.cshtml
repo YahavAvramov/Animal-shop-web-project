@@ -1,0 +1,25 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<AnimalWeb.Models.Comments>
+@{
+    ViewData["Title"] = "GetCommentsForAnimal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+
+</head>
+
+<body>
+    @foreach (var comment in @Model)
+    {
+        <div>
+            @comment.Comment
+        </div>
+        <br />
+    }
+
+
+
+</body>
+
+
+
