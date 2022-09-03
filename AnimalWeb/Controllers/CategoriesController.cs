@@ -9,7 +9,7 @@ namespace AnimalWeb.Controllers
     public class CategoriesController : Controller
     {
         private IRepository _repository;
-        protected static bool _isAdmin;
+        public static bool _isAdmin;
         public CategoriesController(IRepository repository)
         {
             _repository = repository;
