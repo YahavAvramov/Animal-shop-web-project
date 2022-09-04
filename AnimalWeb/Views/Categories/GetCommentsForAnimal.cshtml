@@ -17,11 +17,9 @@
                 string picURL = commentsPicQue.GetRandomUrlForImag();
             <li>
                 <img src="@picURL" style="width:50px; border-radius:50%;">
-                <span> @comment.CommentWriterName</span><br>
-                <span>@comment.CommentDate</span>
-                <div>@comment.Comment</div>
+                <span> @comment.CommentDate  @comment.CommentWriterName :   @comment.Comment   </span>
+              
             </li>
-
 
         }
     </ul>

@@ -6,9 +6,10 @@ namespace AnimalWeb.Repositories
     public class MyRepository : IRepository
     {
         private Context _context;
+
         public MyRepository(Context context)
         {
-            _context = context; 
+            _context = context;
         }
         public IEnumerable<Animals> GetAnimals()
         {
@@ -82,6 +83,71 @@ namespace AnimalWeb.Repositories
         public Animals GetAnimalById(int id)
         {
             return _context.Animals.Where(a => a.ID == id).First();
+        }
+        public IEnumerable<Animals> GetBestAnimals()
+        {
+            List<Animals> animals = new List<Animals>();
+            var animalsArry = GetBestAnimalsByArry();
+            for (int i = 0; i < animalsArry.Length; i++)
+            {
+                animals.Add (animalsArry[i]);
+            }
+            return animals;
+        }
+
+        public Animals[] GetBestAnimalsByArry()
+        {
+            Animals tmp1 = new Animals();
+            Animals tmp2 = new Animals();
+            int firsPlace = 0, seconedPlace = 0, therdPlade = 0;
+            Animals[] animalsToReturn = new Animals[3];
+            IEnumerable<Animals> animals = _context.Animals;
+            Animals[] arrAnimals = new Animals[_context.Animals.Count()];
+            int num = 0;
+            foreach (var animal in animals)
+            {
+                arrAnimals[num] = animal;
+                ++num;
+            }
+            for (int i = 0; i < arrAnimals.Length; i++)
+            {
+                if (i == 0) { animalsToReturn[i] = arrAnimals[i]; firsPlace = arrAnimals[i].Comments.Count(); }//when it is the firs animal to check
+                else
+                {
+                    if (arrAnimals[i].Comments.Count() > firsPlace)// if the corrent animal comment is bigger then the first place
+                    {
+                        tmp1 = animalsToReturn[0]; // save the animal in first place 
+                        tmp2 = animalsToReturn[1];
+
+                        animalsToReturn[0] = arrAnimals[i]; // make the corent animal first place and orgnize the line
+                        animalsToReturn[1] = tmp1;
+                        animalsToReturn[2] = tmp2;
+
+                        firsPlace = animalsToReturn[0].Comments.Count();
+                        seconedPlace = animalsToReturn[1].Comments.Count();
+                        therdPlade = animalsToReturn[2].Comments.Count();
+
+                    }
+                    else if (arrAnimals[i].Comments.Count() > seconedPlace)
+                    {
+                        tmp2 = animalsToReturn[1];
+
+                        animalsToReturn[1] = arrAnimals[i];
+                        animalsToReturn[2] = tmp2;
+
+                        seconedPlace = animalsToReturn[1].Comments.Count();
+                        therdPlade = animalsToReturn[2].Comments.Count();
+
+                    }
+                    else if (arrAnimals[i].Comments.Count() > therdPlade)
+                    {
+                        animalsToReturn[2] = arrAnimals[i];
+                        therdPlade = animalsToReturn[2].Comments.Count();
+
+                    }
+                }
+            }
+            return animalsToReturn;
         }
     }
 }

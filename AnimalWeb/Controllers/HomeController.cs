@@ -16,7 +16,7 @@ namespace AnimalWeb.Controllers
         public IActionResult Index()
         {
             ViewBag.isAdmin = CategoriesController._isAdmin;
-            return View(_repository.GetCategories());
+            return View(_repository.GetBestAnimals());
         }
        public IActionResult AdminPage()
         {
