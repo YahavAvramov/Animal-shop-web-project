@@ -17,9 +17,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    @{
-        IEnumerable<Animals> animals = Model;
-    }
+
 
     <img src="\Assets\iconGetPet.png" alt="icon" width="500" height="300" style="margin-left:30%; margin-top:-40px;" />
     <div class="container">
@@ -36,13 +34,18 @@
             <div class="carousel-inner">
                 @foreach (var item in Model)
                 {
-                    <div class="item active">
+                    <div id="item" class="item" href="Home">
                         <img src=@item.PictureName alt="@item.Category +picture " style="width:100%; border-radius:20px;">
                         <div class="carousel-caption">
                             <h3>you can find @item.Name here! </h3>
                             @*<p>@item.Comments.First().ToString()</p>*@
                         </div>
+                        
                     </div>
+                    <script>
+                        const items = document.getElementById('item');
+                        items.classList.add("active");
+                    </script>
                 }
 
 
