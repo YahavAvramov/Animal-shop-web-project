@@ -87,68 +87,49 @@ namespace AnimalWeb.Repositories
         public IEnumerable<Animals> GetBestAnimals()
         {
             List<Animals> animals = new List<Animals>();
-            var animalsArry = GetBestAnimalsByArry();
-            for (int i = 0; i < animalsArry.Length; i++)
+            var animalsArry = GetAnimalByComments();
+            for (int i = 0; i < animalsArry.Length ; i++)
             {
-                animals.Add (animalsArry[i]);
+                var firstAnimal = _context.Animals.Where(a => a.ID == animalsArry[i] + 1).First();
+                animals.Add(firstAnimal);
             }
+            
             return animals;
         }
 
-        public Animals[] GetBestAnimalsByArry()
+        public int[] GetAnimalByComments()
         {
-            Animals tmp1 = new Animals();
-            Animals tmp2 = new Animals();
-            int firsPlace = 0, seconedPlace = 0, therdPlade = 0;
-            Animals[] animalsToReturn = new Animals[3];
-            IEnumerable<Animals> animals = _context.Animals;
-            Animals[] arrAnimals = new Animals[_context.Animals.Count()];
-            int num = 0;
-            foreach (var animal in animals)
+            int[] tempArray = new int[_context.Animals.Count()];
+            var index = 0;
+            foreach (var item in _context.Animals)
             {
-                arrAnimals[num] = animal;
-                ++num;
+                var temp = _context.Comments.Where(x => x.AnimalID == item.ID);
+                tempArray[index++] = temp.Count();
             }
-            for (int i = 0; i < arrAnimals.Length; i++)
+            int[] sortArry = new int[3];
+            int maxItem = 0;
+            for (int j = 0; j < 3; j++)
             {
-                if (i == 0) { animalsToReturn[i] = arrAnimals[i]; firsPlace = arrAnimals[i].Comments.Count(); }//when it is the firs animal to check
-                else
+                for (int i = 0; i < tempArray.Length; i++)
                 {
-                    if (arrAnimals[i].Comments.Count() > firsPlace)// if the corrent animal comment is bigger then the first place
+                    if (tempArray[i] >= tempArray[maxItem])
                     {
-                        tmp1 = animalsToReturn[0]; // save the animal in first place 
-                        tmp2 = animalsToReturn[1];
-
-                        animalsToReturn[0] = arrAnimals[i]; // make the corent animal first place and orgnize the line
-                        animalsToReturn[1] = tmp1;
-                        animalsToReturn[2] = tmp2;
-
-                        firsPlace = animalsToReturn[0].Comments.Count();
-                        seconedPlace = animalsToReturn[1].Comments.Count();
-                        therdPlade = animalsToReturn[2].Comments.Count();
+                        maxItem = i;
 
                     }
-                    else if (arrAnimals[i].Comments.Count() > seconedPlace)
-                    {
-                        tmp2 = animalsToReturn[1];
 
-                        animalsToReturn[1] = arrAnimals[i];
-                        animalsToReturn[2] = tmp2;
 
-                        seconedPlace = animalsToReturn[1].Comments.Count();
-                        therdPlade = animalsToReturn[2].Comments.Count();
-
-                    }
-                    else if (arrAnimals[i].Comments.Count() > therdPlade)
-                    {
-                        animalsToReturn[2] = arrAnimals[i];
-                        therdPlade = animalsToReturn[2].Comments.Count();
-
-                    }
                 }
+                tempArray[maxItem] = -1;
+                sortArry[j] = maxItem;
+
             }
-            return animalsToReturn;
+            return sortArry;
         }
+
+
     }
+
 }
+
 

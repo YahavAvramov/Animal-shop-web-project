@@ -17,5 +17,6 @@ namespace AnimalWeb.Repositories
         void CreateCategory(string name , string categoryURLpictuer);
         Animals GetAnimalById(int id);
         public IEnumerable<Animals> GetBestAnimals();
+        public int[] GetAnimalByComments();
     }
 }

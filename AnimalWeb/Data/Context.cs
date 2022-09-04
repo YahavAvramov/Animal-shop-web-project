@@ -34,14 +34,14 @@ namespace AnimalWeb.Data
                 new { ID = 5, Name = "Iguanas", CategoryPicture = @"\Assets\CategoriesI-icons\iguana-icon.jpg" }
             );
             modelBuilder.Entity<Animals>().HasData(
-                new { ID = 1, Name = "Rex", Age = 1, PictureName = "Path", Description = "Raex is a very friendly dog, he likes to play with ball and really love toyies", CategoryName = "Dogs", Price = 10 },
+                new { ID = 1, Name = "Rex", Age = 1, PictureName = @"\Assets\dogCarosel.jpg", Description = "Raex is a very friendly dog, he likes to play with ball and really love toyies", CategoryName = "Dogs", Price = 10 },
                 new { ID = 2, Name = "Miki", Age = 2, PictureName = "Path", Description = "lorem50", CategoryName = "Dogs", Price = 23 },
                 new { ID = 3, Name = "Hatul", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Cats", Price = 11 },
                 new { ID = 4, Name = "Nemo", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Fish", Price = 22 },
                 new { ID = 5, Name = "Bunni", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Rabbits", Price = 2 },
                 new { ID = 6, Name = "Baks", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Rabbits", Price = 13 },
-                new { ID = 7, Name = "Ziki", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Iguanas", Price = 15 },
-                new { ID = 8, Name = "Ziko", Age = 3, PictureName = "Path", Description = "lorem50", CategoryName = "Iguanas", Price = 10 }
+                new { ID = 7, Name = "Ziki", Age = 3, PictureName = @"\Assets\parrotCarosel.jpg", Description = "lorem50", CategoryName = "Iguanas", Price = 15 },
+                new { ID = 8, Name = "Ziko", Age = 3, PictureName = @"\Assets\rabbitCarosel.jpg", Description = "lorem50", CategoryName = "Iguanas", Price = 10 }
             );
             modelBuilder.Entity<Comments>().HasData(
                 new { ID = 1, Comment = "I will buy that dog!", AnimalID = 1, CommentWriterName = "shir", CommentDate = DateTime.Now },

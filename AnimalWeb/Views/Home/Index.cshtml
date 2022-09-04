@@ -36,11 +36,11 @@
             <div class="carousel-inner">
                 @foreach (var item in Model)
                 {
-                    <div class="item">
+                    <div class="item active">
                         <img src=@item.PictureName alt="@item.Category +picture " style="width:100%; border-radius:20px;">
                         <div class="carousel-caption">
                             <h3>you can find @item.Name here! </h3>
-                            <p>@item.Comments.First().ToString()</p>
+                            @*<p>@item.Comments.First().ToString()</p>*@
                         </div>
                     </div>
                 }
