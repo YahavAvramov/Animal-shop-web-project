@@ -8,6 +8,14 @@
 </head>
 
 <body style="background-color:gray">
+  
+    @if (@ViewBag.alart)
+    {
+        <div style="background-color:palevioletred">
+            <h3 >Eror</h3>
+            <p>the ditails are not valid</p>
+        </div>
+    }
     <h1 style="margin-top:50px; margin-left:50%;">LogIn Form</h1>
     <br />
 
@@ -31,7 +39,7 @@
                 </th>
             </tr>
         </table>
-        
+
         <input id="Submit" type="submit" value="submit" />
     }
 

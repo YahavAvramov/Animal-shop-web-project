@@ -1,4 +1,5 @@
-﻿@model Animals
+﻿
+@model Animals;
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
@@ -45,6 +46,7 @@
                     <span>Category: </span>
                 </th>
                 <th>
+  
                     @Html.TextBoxFor(m => m.CategoryName)
                 </th>
             </tr>

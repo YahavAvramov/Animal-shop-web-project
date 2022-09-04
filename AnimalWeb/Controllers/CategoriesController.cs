@@ -37,6 +37,7 @@ namespace AnimalWeb.Controllers
         }
         public IActionResult GetCategory(string categoryName)
         {
+            ViewBag.categoryName = categoryName;
             ViewBag.isAdmin = _isAdmin;
             var data = _repository.GetAnimalsByCategory(categoryName);
             return View(data);
@@ -49,8 +50,9 @@ namespace AnimalWeb.Controllers
             }
             return RedirectToAction("Index", "Home");
         }
-        public IActionResult CreateAnimal()
+        public IActionResult CreateAnimal(string category)
         {
+            ViewBag.categoryName = category;
             return View();
         }
         [HttpPost]

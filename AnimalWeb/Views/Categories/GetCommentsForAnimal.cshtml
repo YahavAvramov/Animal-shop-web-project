@@ -9,14 +9,22 @@
 </head>
 
 <body>
-    @foreach (var comment in @Model)
-    {
-        <div>
-            @comment.Comment
-        </div>
-        <br />
-    }
 
+    <ul>
+        @foreach (var comment in @Model)
+        {
+            
+                string picURL = commentsPicQue.GetRandomUrlForImag();
+            <li>
+                <img src="@picURL" style="width:50px; border-radius:50%;">
+                <span> @comment.CommentWriterName</span><br>
+                <span>@comment.CommentDate</span>
+                <div>@comment.Comment</div>
+            </li>
+
+
+        }
+    </ul>
 
 
 </body>

@@ -11,6 +11,8 @@ namespace AnimalWeb.Models
         [StringLength(50)]
         public string Comment { get; set; }
         public Animals Animal { get; set; }
+        public string? CommentWriterName { get; set; }
+        public DateTime? CommentDate { get; set; }
     }
 }
 

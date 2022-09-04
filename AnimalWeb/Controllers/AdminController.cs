@@ -18,8 +18,9 @@ namespace AnimalWeb.Controllers
             bool isUser = _userRepository.CheckUser("yahav99999@gmail.com", "123456");
             return Content(isUser.ToString());
         }
-        public IActionResult AdminConnectionForm()
+        public IActionResult AdminConnectionForm(bool alart = false)
         {
+            ViewBag.alart = alart;
             return View();
         }
         public IActionResult ChangingForm()
@@ -33,7 +34,7 @@ namespace AnimalWeb.Controllers
             bool isUser = _userRepository.CheckUser(Email , Password);
             if (!isUser)
             {
-                return RedirectToAction("AdminConnectionForm", "Admin");
+                return RedirectToAction("AdminConnectionForm", "Admin" , new {alart = true});
             }
             return RedirectToAction("SignAdmin", "Categories", new { isAdmin = true });
         }
