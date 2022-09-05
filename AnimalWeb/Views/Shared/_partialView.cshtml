@@ -42,7 +42,7 @@
                     <li><a href="@Url.Action("LogOut", "Categories")"><span class="glyphicon glyphicon-log-in"></span> Log Out</a></li>
                     <li><a href=""><span class="glyphicon glyphicon-user"></span> Admin</a></li>
                 }
-                else
+                else if(ViewBag.isAdmin == false)
                 {
                     <li><a href="@Url.Action("AdminConnectionForm", "Admin")"><span class="glyphicon glyphicon-user"></span> Login</a></li>
                 }

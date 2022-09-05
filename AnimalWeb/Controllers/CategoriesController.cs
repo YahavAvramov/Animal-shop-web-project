@@ -81,18 +81,19 @@ namespace AnimalWeb.Controllers
             _repository.DeleteAnimal(id);
             return RedirectToAction("GetCategory", "Categories", new { categoryName = categoryName });
         }
-        public IActionResult GetCommentsForAnimal(int Id)
+        public IActionResult GetCommentsForAnimal(int Id, bool eror = false)
         {
+            ViewBag.eror = eror;
+            ViewBag.correntAnimalID = Id;
             correntAnimalId= Id;
-            ViewBag.allComments = _repository.GetCommentsById(Id);
+            ViewBag.allComments = _repository.GetCommentsById(Id).Reverse();
             return View();
         }
 
-        [AcceptVerbs]
+        //[AcceptVerbs]
         public IActionResult AddCommentsForAnimal(int AnimalID , string CommentWriterName, string comment)
         {
-            if(AnimalID == 0) { AnimalID = correntAnimalId; }
-           
+            if(CommentWriterName == "" || comment == "") { return RedirectToAction("GetCommentsForAnimal", new { Id = AnimalID, eror = true}); }
             _repository.AddComment(comment, CommentWriterName , AnimalID);
             return RedirectToAction("GetCommentsForAnimal", "Categories", new { Id = AnimalID });
         }

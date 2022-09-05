@@ -12,8 +12,17 @@
 
 <body>
 
+    @if (ViewBag.eror)
+    {
+         <div style="background-color:palevioletred">
+            <h3 >Eror</h3>
+            <p>please fill up all the ditails</p>
+        </div>
+    }
+
     @{
         string newCommentUrl = commentsPicQue.GetRandomUrlForImag();
+
     }
 
     <h3 class="pull-left">New Comment</h3>
@@ -43,10 +52,11 @@
                                 <th>
                                     @Html.TextBoxFor(m => m.Comment)
                                 </th>
+
                             </tr>
-                            <p >
-                               @Html.TextBoxFor(model => model.AnimalID , new { @Value  = ViewBag.CorrentAnimalId ,@type="hidden" })
-                            </p> 
+                            <p style="visibility:hidden">
+                                <input name="AnimalID" type="hidden" value="@ViewBag.correntAnimalID" />
+                            </p>
                         </table>
 
                         <input id="Submit" class="btn btn-normal" type="submit" value="submit" />
@@ -69,6 +79,7 @@
                 @foreach (var comment in ViewBag.allComments)
                 {
                     string picURL = commentsPicQue.GetRandomUrlForImag();
+
                     <div class="d-flex flex-start mb-4">
                         <img class="rounded-circle shadow-1-strong me-3"
                          src="@picURL" style="width:50px; border-radius:50%;"

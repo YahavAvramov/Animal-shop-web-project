@@ -15,8 +15,8 @@ namespace AnimalWeb.Controllers
         }
         public ActionResult Index()
         {
-            bool isUser = _userRepository.CheckUser("yahav99999@gmail.com", "123456");
-            return Content(isUser.ToString());
+
+            return View();
         }
         public IActionResult AdminConnectionForm(bool alart = false)
         {

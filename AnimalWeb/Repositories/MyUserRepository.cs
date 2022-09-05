@@ -22,12 +22,9 @@ namespace AnimalWeb.Repositories
         //}
         public bool CheckUser(string userEmail, string password)
         {
-            IEnumerable<Users> users = _context.Users;
-            if (users.Any(u => u.Password == password && u.Email == userEmail))
-            {
-                return true;
-            }
-            else return false;
+            IEnumerable<Users> users = _context.Users; 
+
+            return (users.Any(u => u.Password == password && u.Email == userEmail));
         }
 
         public IEnumerable<Users> GetUsers()

@@ -67,11 +67,11 @@ namespace AnimalWeb.Repositories
         }
         public void AddComment(string comment, string name , int animalId)
         {
-            int commentId = _context.Comments.Count();
+
             Animals animal = GetAnimalById(animalId);
             Comments comments = new Comments
             {
-                ID = ++commentId,
+
                 AnimalID = animalId,
                 Animal = animal,
                 Comment = comment,
