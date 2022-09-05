@@ -10,7 +10,7 @@ namespace AnimalWeb.Controllers
     {
 
         private IRepository _repository;
-        public static bool _isAdmin;
+        public static bool _isAdmin = false;
         public int correntAnimalId =0;
         public CategoriesController(IRepository repository)
         {
@@ -81,8 +81,14 @@ namespace AnimalWeb.Controllers
             _repository.DeleteAnimal(id);
             return RedirectToAction("GetCategory", "Categories", new { categoryName = categoryName });
         }
+        public IActionResult DeletComment(int id , int animalId)
+        {
+            _repository.DeleteComment(id , animalId);
+            return RedirectToAction("GetCommentsForAnimal", new { Id = animalId });
+        }
         public IActionResult GetCommentsForAnimal(int Id, bool eror = false)
         {
+            if(_isAdmin == true) { ViewBag.isAdnin = true;}
             ViewBag.eror = eror;
             ViewBag.correntAnimalID = Id;
             correntAnimalId= Id;

@@ -132,7 +132,13 @@ namespace AnimalWeb.Repositories
             }
             return sortArry;
         }
-       
+
+        public void DeleteComment(int id , int animalId)
+        {
+            var comment = _context.Comments!.Single(m => m.ID == id);
+            _context.Comments!.Remove(comment);
+            _context.SaveChanges();
+        }
     }
 }
 

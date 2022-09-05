@@ -18,6 +18,7 @@ namespace AnimalWeb.Repositories
         Animals GetAnimalById(int id);
         public IEnumerable<Animals> GetBestAnimals();
         public int[] GetAnimalByComments();
-      
+        public void DeleteComment(int id , int animalId);
+
     }
 }

@@ -14,8 +14,8 @@
 
     @if (ViewBag.eror)
     {
-         <div style="background-color:palevioletred">
-            <h3 >Eror</h3>
+        <div style="background-color:palevioletred">
+            <h3>Eror</h3>
             <p>please fill up all the ditails</p>
         </div>
     }
@@ -81,17 +81,29 @@
                     string picURL = commentsPicQue.GetRandomUrlForImag();
 
                     <div class="d-flex flex-start mb-4">
-                        <img class="rounded-circle shadow-1-strong me-3"
-                         src="@picURL" style="width:50px; border-radius:50%;"
-                         height="65" />
+                        <div>
+                            <img class="rounded-circle shadow-1-strong me-3"
+                             src="@picURL" style="width:50px; border-radius:50%;"
+                             height="65" />
+                            @if (ViewBag.isAdnin == true)
+                            {
+                                <a href="@Url.Action("DeletComment" , new{id = comment.ID , animalId = comment.AnimalID})" style="font-size:small;">Delet Comment</a>
+                            }
+                        </div>
+
                         <div class="card w-100">
                             <div class="card-body p-4">
                                 <div class="">
                                     <h5>@comment.CommentWriterName</h5>
-                                    <p class="small">@comment.CommentDate</p>
-                                    <p>
-                                        @comment.Comment
-                                    </p>
+                                    <p class="small">@comment.CommentDate </p>
+                                    <p style="font-size:large; font-weight:bold;">@comment.Comment </p>
+                                   @* <p>
+                                        @if (ViewBag.isAdnin == true)
+                                        {
+                                            <a href="@Url.Action("DeletComment" , new{id = comment.ID , animalId = comment.AnimalID})" style="font-size:small;">Delet Comment</a>
+                                        }
+
+                                    </p>*@
                                 </div>
                             </div>
                         </div>
