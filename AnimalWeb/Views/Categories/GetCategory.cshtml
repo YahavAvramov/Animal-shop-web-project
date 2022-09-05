@@ -2,7 +2,7 @@
 @model IEnumerable<AnimalWeb.Models.Animals>
 
 @{
-    ViewData["Title"] = "Animals" + @Html.DisplayNameFor(model => model.Category);
+    ViewData["Title"] = "Animals " + @Html.DisplayNameFor(model => model.CategoryName);
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -28,20 +28,21 @@
 
     @foreach (var Animal in Model)
     {
-        <div class="modal-content shadow col-lg-3 col-md-4 Animal-modul ">
+        <div class="modal-content shadow col-lg-5 col-md-4 category-modul">
             <div class="modal-body modal-centered">
                 <p><a class="btn btn-secondary" href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = Animal.ID} )">  <img src="@Animal.PictureName" alt="@Animal.Name icon" style="height:150px; width:150px; border-radius:50%;" /> </a></p>
+                <h2 class="fw-normal">@Html.DisplayFor(model => Animal.Name)</h2>
             </div>
             <div class="modal-footer modal-centered">
-                <h2 class="fw-normal">@Html.DisplayFor(model => Animal.Name)</h2>
-                <label>@Animal.Description</label>
-                <br/>
-                <br/>
+                <h3>@Animal.Description</h3>
                 <a href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = Animal.ID , isAdmin = ViewBag.isAdmin} )">
                     <button type="button" class="btn btn-primary btn-lg">$ @Animal.Price</button>
-                </a><br/>
-             
+                    <button type="button" class="btn btn-primary btn-lg" href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = Animal.ID} )">Leave comment</button>
+                </a><br />
             </div>
+            @* each category will have an uniq action with her name that will return the view of her page*@
+
+
             @if (ViewBag.isAdmin == true)
             {
             <td id="Animal-actions">

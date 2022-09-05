@@ -65,10 +65,12 @@ namespace AnimalWeb.Repositories
             _context.Categories!.Remove(category);
             _context.SaveChanges();
         }
-        public void AddComment(string comment, int Id)
+        public void AddComment(string comment, string name, int Id)
         {
             Comments comments = new Comments();
             comments.Comment = comment;
+            comments.CommentWriterName = name;
+            comments.CommentDate= DateTime.Now;
             _context.Comments!.Add(comments);
             _context.SaveChanges();
         }
@@ -92,11 +94,9 @@ namespace AnimalWeb.Repositories
             {
                 var firstAnimal = _context.Animals.Where(a => a.ID == animalsArry[i] + 1).First();
                 animals.Add(firstAnimal);
-            }
-            
+            }   
             return animals;
         }
-
         public int[] GetAnimalByComments()
         {
             int[] tempArray = new int[_context.Animals.Count()];
@@ -117,19 +117,13 @@ namespace AnimalWeb.Repositories
                         maxItem = i;
 
                     }
-
-
                 }
                 tempArray[maxItem] = -1;
                 sortArry[j] = maxItem;
-
             }
             return sortArry;
         }
-
-
     }
-
 }
 
 

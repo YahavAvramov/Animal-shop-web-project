@@ -84,7 +84,11 @@ namespace AnimalWeb.Controllers
 
             return View(_repository.GetCommentsById(Id));
         }
-
+        public IActionResult AddCommentsForAnimal(int Id, string name, string comment)
+        {
+            _repository.AddComment(comment, name, Id);
+            return RedirectToAction("GetCommentsForAnimal", "Categories", new { Id = Id });
+        }
 
 
     }
