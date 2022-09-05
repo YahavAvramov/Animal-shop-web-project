@@ -65,12 +65,21 @@ namespace AnimalWeb.Repositories
             _context.Categories!.Remove(category);
             _context.SaveChanges();
         }
-        public void AddComment(string comment, string name, int Id)
+        public void AddComment(string comment, string name , int animalId)
         {
-            Comments comments = new Comments();
-            comments.Comment = comment;
-            comments.CommentWriterName = name;
-            comments.CommentDate= DateTime.Now;
+            int commentId = _context.Comments.Count();
+            Animals animal = GetAnimalById(animalId);
+            Comments comments = new Comments
+            {
+                ID = ++commentId,
+                AnimalID = animalId,
+                Animal = animal,
+                Comment = comment,
+                CommentWriterName = name,
+                CommentDate = DateTime.Now
+
+            };
+       
             _context.Comments!.Add(comments);
             _context.SaveChanges();
         }
@@ -123,6 +132,7 @@ namespace AnimalWeb.Repositories
             }
             return sortArry;
         }
+       
     }
 }
 

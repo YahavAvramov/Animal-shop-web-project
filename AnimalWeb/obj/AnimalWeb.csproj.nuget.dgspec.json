@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maxim\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj": {}
+    "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest8\\AnimalWeb\\AnimalWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maxim\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj": {
+    "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest8\\AnimalWeb\\AnimalWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maxim\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj",
+        "projectUniqueName": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest8\\AnimalWeb\\AnimalWeb.csproj",
         "projectName": "AnimalWeb",
-        "projectPath": "C:\\Users\\Maxim\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj",
-        "packagesPath": "C:\\Users\\Maxim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maxim\\source\\repos\\Animal-shop-web-project\\AnimalWeb\\obj\\",
+        "projectPath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest8\\AnimalWeb\\AnimalWeb.csproj",
+        "packagesPath": "C:\\Users\\yahav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\AnimalShopNewest8\\AnimalWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yahav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

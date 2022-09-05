@@ -8,8 +8,10 @@ namespace AnimalWeb.Controllers
 {
     public class CategoriesController : Controller
     {
+
         private IRepository _repository;
         public static bool _isAdmin;
+        public int correntAnimalId =0;
         public CategoriesController(IRepository repository)
         {
             _repository = repository;
@@ -81,13 +83,18 @@ namespace AnimalWeb.Controllers
         }
         public IActionResult GetCommentsForAnimal(int Id)
         {
-
-            return View(_repository.GetCommentsById(Id));
+            correntAnimalId= Id;
+            ViewBag.allComments = _repository.GetCommentsById(Id);
+            return View();
         }
-        public IActionResult AddCommentsForAnimal(int Id, string name, string comment)
+
+        [AcceptVerbs]
+        public IActionResult AddCommentsForAnimal(int AnimalID , string CommentWriterName, string comment)
         {
-            _repository.AddComment(comment, name, Id);
-            return RedirectToAction("GetCommentsForAnimal", "Categories", new { Id = Id });
+            if(AnimalID == 0) { AnimalID = correntAnimalId; }
+           
+            _repository.AddComment(comment, CommentWriterName , AnimalID);
+            return RedirectToAction("GetCommentsForAnimal", "Categories", new { Id = AnimalID });
         }
 
 
