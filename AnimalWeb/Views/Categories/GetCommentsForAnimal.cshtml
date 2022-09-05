@@ -97,13 +97,7 @@
                                     <h5>@comment.CommentWriterName</h5>
                                     <p class="small">@comment.CommentDate </p>
                                     <p style="font-size:large; font-weight:bold;">@comment.Comment </p>
-                                   @* <p>
-                                        @if (ViewBag.isAdnin == true)
-                                        {
-                                            <a href="@Url.Action("DeletComment" , new{id = comment.ID , animalId = comment.AnimalID})" style="font-size:small;">Delet Comment</a>
-                                        }
-
-                                    </p>*@
+                                 
                                 </div>
                             </div>
                         </div>
