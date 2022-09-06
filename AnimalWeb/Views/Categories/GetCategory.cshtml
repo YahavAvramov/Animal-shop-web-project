@@ -18,7 +18,6 @@
     @{
         if (ViewBag.isAdmin == true)
         {
-            var animal = @Model.First();
             <p>
                 <a href="@Url.Action("CreateAnimal", "Categories", new{category = @ViewBag.categoryName })" >Create New Animal</a>
             </p>
