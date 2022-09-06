@@ -20,4 +20,8 @@
     <ProjectReference Include="..\AnimalWeb\AnimalWeb.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="FakeRepositories\" />
+  </ItemGroup>
+
 </Project>
