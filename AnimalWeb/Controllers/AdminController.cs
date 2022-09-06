@@ -1,7 +1,11 @@
 ﻿using AnimalWeb.Models;
 using AnimalWeb.Repositories;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace AnimalWeb.Controllers
 {
@@ -18,10 +22,18 @@ namespace AnimalWeb.Controllers
 
             return View();
         }
-        public IActionResult AdminConnectionForm(bool alart = false)
+        [HttpGet]
+        public async Task<IActionResult> AdminConnectionForm(bool alart = false)
         {
             ViewBag.alart = alart;
             return View();
+        }
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult ExternalLogin(string provider, string returnurl = null)
+        {
+
+            return RedirectToAction("SignAdmin", "Categories", new { isAdmin = true });
         }
         public IActionResult ChangingForm()
         {

@@ -54,7 +54,7 @@ namespace AnimalWeb.Data
                 new { ID = 8, Comment = "What a cuty", AnimalID = 5, CommentWriterName = "david", CommentDate = DateTime.Now },
                 new { ID = 9, Comment = "I want one", AnimalID = 5, CommentWriterName = "omer", CommentDate = DateTime.Now },
                 new { ID = 10, Comment = "Lets buy it", AnimalID = 5, CommentWriterName = "sapir", CommentDate = DateTime.Now },
-                  new { ID = 11, Comment = "What a massive rabbit!", AnimalID = 6, CommentWriterName = "Tom", CommentDate = DateTime.Now }
+                new { ID = 11, Comment = "What a massive rabbit!", AnimalID = 6, CommentWriterName = "Tom", CommentDate = DateTime.Now }
             );
             //modelBuilder.Entity<Users>().HasData(
             //    new { ID = 1, Comment = "Dogs", AnimalID = 1 }

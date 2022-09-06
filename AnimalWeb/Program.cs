@@ -14,8 +14,8 @@ builder.Services.AddAuthentication()
     {
         IConfigurationSection googleAuthNSection =
         config.GetSection("Authentication:Google");
-        options.ClientId = googleAuthNSection["ClientId"];
-        options.ClientSecret = googleAuthNSection["ClientSecret"];
+        options.ClientId = googleAuthNSection["123506300981-6d75gsged3d7unp6dq13nf1rp665kh3s.apps.googleusercontent.com"];
+        options.ClientSecret = googleAuthNSection["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"];
     })
     .AddFacebook(options =>
     {
