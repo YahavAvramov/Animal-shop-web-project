@@ -34,26 +34,27 @@ namespace AnimalWeb.Data
                 new { ID = 5, Name = "Iguanas", CategoryPicture = @"\Assets\CategoriesI-icons\iguana-icon.jpg" }
             );
             modelBuilder.Entity<Animals>().HasData(
-                new { ID = 1, Name = "Rex", Age = 1, PictureName = @"\Assets\Pets\Dogs\Rex.jpg", Description = "Rex is a very friendly dog, he likes to play with ball and really love toys", CategoryName = "Dogs", Price = 10 },
-                new { ID = 2, Name = "Miki", Age = 2, PictureName = @"\Assets\Pets\Dogs\Miki.jpg", Description = "lorem50", CategoryName = "Dogs", Price = 23 },
-                new { ID = 3, Name = "Snow", Age = 3, PictureName = @"\Assets\Pets\Cats\Snow.jpg", Description = "lorem50", CategoryName = "Cats", Price = 11 },
-                new { ID = 4, Name = "Nemo", Age = 3, PictureName = @"\Assets\Pets\Fish\Nemo.jpg", Description = "lorem50", CategoryName = "Fish", Price = 22 },
-                new { ID = 5, Name = "Bunni", Age = 3, PictureName = @"\Assets\Pets\rabbits\Bunni.jpg", Description = "lorem50", CategoryName = "Rabbits", Price = 2 },
-                new { ID = 6, Name = "Baks", Age = 3, PictureName = @"\Assets\Pets\rabbits\Baks.jpg", Description = "lorem50", CategoryName = "Rabbits", Price = 13 },
-                new { ID = 7, Name = "Ziki", Age = 3, PictureName = @"\Assets\Pets\Iguanas\Ziki.jpg", Description = "lorem50", CategoryName = "Iguanas", Price = 15 },
-                new { ID = 8, Name = "Bob", Age = 3, PictureName = @"\Assets\Pets\Iguanas\Bob.jpg", Description = "lorem50", CategoryName = "Iguanas", Price = 10 }
+                new { ID = 1, Name = "Rex", Age = 1, PictureName = @"\Assets\Pets\Dogs\Rex.jpg", Description = "Rex is a very friendly dog, he likes to play with ball and really love toys", CategoryName = "Dogs", Price = 120 },
+                new { ID = 2, Name = "Mickey", Age = 2, PictureName = @"\Assets\Pets\Dogs\Miki.jpg", Description = "Mickey is a dog full of energy, happy and bouncy who will always be happy to play with you", CategoryName = "Dogs", Price = 93 },
+                new { ID = 3, Name = "Snow", Age = 3, PictureName = @"\Assets\Pets\Cats\Snow.jpg", Description = "Calm and always loves cuddling", CategoryName = "Cats", Price = 11 },
+                new { ID = 4, Name = "Nemo", Age = 3, PictureName = @"\Assets\Pets\Fish\Nemo.jpg", Description = "needs space to swim and lots of hiding places in the aquarium for it to feel comfortable", CategoryName = "Fish", Price = 22 },
+                new { ID = 5, Name = "Bunni", Age = 3, PictureName = @"\Assets\Pets\rabbits\Bunni.jpg", Description = "His favorite food is lettuce, can eliminate whole packages in a few hours", CategoryName = "Rabbits", Price = 2 },
+                new { ID = 6, Name = "Baks", Age = 3, PictureName = @"\Assets\Pets\rabbits\Baks.jpg", Description = "mainly active at night and in the dark hours", CategoryName = "Rabbits", Price = 13 },
+                new { ID = 7, Name = "Ziki", Age = 3, PictureName = @"\Assets\Pets\Iguanas\Ziki.jpg", Description = "A unique type of iguana, amazing in various colors", CategoryName = "Iguanas", Price = 15 },
+                new { ID = 8, Name = "Bob", Age = 3, PictureName = @"\Assets\Pets\Iguanas\Bob.jpg", Description = "Not doing much, mostly being lazy", CategoryName = "Iguanas", Price = 10 }
             );
             modelBuilder.Entity<Comments>().HasData(
                 new { ID = 1, Comment = "I will buy that dog!", AnimalID = 1, CommentWriterName = "shir", CommentDate = DateTime.Now },
-                new { ID = 2, Comment = "what a cuty", AnimalID = 1, CommentWriterName = "david", CommentDate = DateTime.Now },
-                new { ID = 3, Comment = "i want one", AnimalID = 1, CommentWriterName = "omer", CommentDate = DateTime.Now },
-                new { ID = 4, Comment = "lets buy it", AnimalID = 1, CommentWriterName = "sapir", CommentDate = DateTime.Now },
-                new { ID = 5, Comment = "what a cuty", AnimalID = 2, CommentWriterName = "david", CommentDate = DateTime.Now },
-                new { ID = 6, Comment = "i want one", AnimalID = 2, CommentWriterName = "omer", CommentDate = DateTime.Now },
-                new { ID = 7, Comment = "lets buy it", AnimalID = 3, CommentWriterName = "sapir", CommentDate = DateTime.Now },
-                new { ID = 8, Comment = "what a cuty", AnimalID = 5, CommentWriterName = "david", CommentDate = DateTime.Now },
-                new { ID = 9, Comment = "i want one", AnimalID = 5, CommentWriterName = "omer", CommentDate = DateTime.Now },
-                new { ID = 10, Comment = "lets buy it", AnimalID = 5, CommentWriterName = "sapir", CommentDate = DateTime.Now }
+                new { ID = 2, Comment = "What a cuty", AnimalID = 1, CommentWriterName = "david", CommentDate = DateTime.Now },
+                new { ID = 3, Comment = "I want one", AnimalID = 1, CommentWriterName = "omer", CommentDate = DateTime.Now },
+                new { ID = 4, Comment = "Lets buy it", AnimalID = 1, CommentWriterName = "sapir", CommentDate = DateTime.Now },
+                new { ID = 5, Comment = "What a cuty", AnimalID = 2, CommentWriterName = "david", CommentDate = DateTime.Now },
+                new { ID = 6, Comment = "I want one", AnimalID = 2, CommentWriterName = "omer", CommentDate = DateTime.Now },
+                new { ID = 7, Comment = "Lets buy it", AnimalID = 3, CommentWriterName = "sapir", CommentDate = DateTime.Now },
+                new { ID = 8, Comment = "What a cuty", AnimalID = 5, CommentWriterName = "david", CommentDate = DateTime.Now },
+                new { ID = 9, Comment = "I want one", AnimalID = 5, CommentWriterName = "omer", CommentDate = DateTime.Now },
+                new { ID = 10, Comment = "Lets buy it", AnimalID = 5, CommentWriterName = "sapir", CommentDate = DateTime.Now },
+                  new { ID = 11, Comment = "What a massive rabbit!", AnimalID = 6, CommentWriterName = "Tom", CommentDate = DateTime.Now }
             );
             //modelBuilder.Entity<Users>().HasData(
             //    new { ID = 1, Comment = "Dogs", AnimalID = 1 }

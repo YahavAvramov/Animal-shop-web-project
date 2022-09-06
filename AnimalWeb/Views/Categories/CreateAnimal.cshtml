@@ -1,5 +1,4 @@
-﻿
-@model Animals;
+﻿@model Animals;
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
@@ -30,7 +29,7 @@
                     <span>Age: </span>
                 </th>
                 <th>
-                    @Html.TextBoxFor(m => m.Age)
+                     <input name="Age" type="number"  />
                 </th>
             </tr>
             <tr>
@@ -41,15 +40,7 @@
                     @Html.TextBoxFor(m => m.PictureName)
                 </th>
             </tr>
-            <tr>
-                <th>
-                    <span>Category: </span>
-                </th>
-                <th>
-  
-                    @Html.TextBoxFor(m => m.CategoryName)
-                </th>
-            </tr>
+            
             <tr>
                 <th>
                     <span>Description: </span>
@@ -63,9 +54,12 @@
                     <span>Price: </span>
                 </th>
                 <th>
-                    @Html.TextBoxFor(m => m.Price)
+                   <input name="Price" type="number"  />
                 </th>
             </tr>
+
+                    <input name="CategoryName" type="hidden" value="@ViewBag.categoryName" />
+         
         </table>
         <input id="Submit" type="submit" value="submit" />
     }

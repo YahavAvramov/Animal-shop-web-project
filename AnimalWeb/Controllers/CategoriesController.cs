@@ -54,6 +54,7 @@ namespace AnimalWeb.Controllers
         }
         public IActionResult CreateAnimal(string category)
         {
+            ViewBag.categoriesNames = _repository.GetCategories().Select(c => c.Name);
             ViewBag.categoryName = category;
             return View();
         }

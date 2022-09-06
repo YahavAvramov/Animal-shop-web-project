@@ -34,7 +34,8 @@
                 <h2 class="fw-normal">@Html.DisplayFor(model => Animal.Name)</h2>
             </div>
             <div class="modal-footer modal-centered">
-                <h3>@Animal.Description</h3>
+                <h4>Age : @Animal.Age</h4>
+                <h5>@Animal.Description</h5>
                 <a href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = Animal.ID , isAdmin = ViewBag.isAdmin} )">
                     <button type="button" class="btn btn-primary btn-lg">$ @Animal.Price</button>
                     <button type="button" class="btn btn-primary btn-lg" href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = Animal.ID} )">Leave comment</button>
