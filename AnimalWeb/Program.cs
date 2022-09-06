@@ -4,9 +4,10 @@ using AnimalWeb.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
+string connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"];
 builder.Services.AddTransient<IRepository, MyRepository>();
 builder.Services.AddTransient<IUserRepository, MyUserRepository>();
-builder.Services.AddDbContext<Context>(options => options.UseSqlite("Data Source=c:\\temp\\example4.db"));
+builder.Services.AddDbContext<Context>(options => options.UseSqlite(connectionString));
 builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication()
    .AddGoogle(options =>
