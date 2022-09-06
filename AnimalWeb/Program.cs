@@ -21,8 +21,8 @@ builder.Services.AddAuthentication()
     {
         IConfigurationSection FBAuthNSection =
         config.GetSection("Authentication:FB");
-        options.ClientId = FBAuthNSection["ClientId"];
-        options.ClientSecret = FBAuthNSection["ClientSecret"];
+        options.ClientId = FBAuthNSection["775363860471658"];
+        options.ClientSecret = FBAuthNSection["9f81d207f7220a6d9973e5f41677b2db"];
     });
 //.AddMicrosoftAccount(microsoftOptions =>
 //{
