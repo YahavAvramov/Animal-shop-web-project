@@ -38,7 +38,7 @@ namespace AnimalWeb.Data
                 new { ID = 2, Name = "Miki", Age = 2, PictureName = @"\Assets\Pets\Dogs\Miki.jpg", Description = "lorem50", CategoryName = "Dogs", Price = 23 },
                 new { ID = 3, Name = "Snow", Age = 3, PictureName = @"\Assets\Pets\Cats\Snow.jpg", Description = "lorem50", CategoryName = "Cats", Price = 11 },
                 new { ID = 4, Name = "Nemo", Age = 3, PictureName = @"\Assets\Pets\Fish\Nemo.jpg", Description = "lorem50", CategoryName = "Fish", Price = 22 },
-                new { ID = 5, Name = "Bunni", Age = 3, PictureName = @"\Assets\Pets\rabbits\", Description = "lorem50", CategoryName = "Rabbits", Price = 2 },
+                new { ID = 5, Name = "Bunni", Age = 3, PictureName = @"\Assets\Pets\rabbits\Bunni.jpg", Description = "lorem50", CategoryName = "Rabbits", Price = 2 },
                 new { ID = 6, Name = "Baks", Age = 3, PictureName = @"\Assets\Pets\rabbits\Baks.jpg", Description = "lorem50", CategoryName = "Rabbits", Price = 13 },
                 new { ID = 7, Name = "Ziki", Age = 3, PictureName = @"\Assets\Pets\Iguanas\Ziki.jpg", Description = "lorem50", CategoryName = "Iguanas", Price = 15 },
                 new { ID = 8, Name = "Bob", Age = 3, PictureName = @"\Assets\Pets\Iguanas\Bob.jpg", Description = "lorem50", CategoryName = "Iguanas", Price = 10 }

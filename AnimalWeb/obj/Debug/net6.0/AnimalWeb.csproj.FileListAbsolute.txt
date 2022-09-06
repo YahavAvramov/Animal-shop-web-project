@@ -784,3 +784,5 @@ C:\Users\yahav\OneDrive\שולחן העבודה\AnimalShopNewest8\AnimalWeb\obj\
 C:\Users\yahav\OneDrive\שולחן העבודה\AnimalShopNewest8\AnimalWeb\obj\Debug\net6.0\AnimalWeb.pdb
 C:\Users\yahav\OneDrive\שולחן העבודה\AnimalShopNewest8\AnimalWeb\obj\Debug\net6.0\AnimalWeb.genruntimeconfig.cache
 C:\Users\yahav\OneDrive\שולחן העבודה\AnimalShopNewest8\AnimalWeb\obj\Debug\net6.0\ref\AnimalWeb.dll
+C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
