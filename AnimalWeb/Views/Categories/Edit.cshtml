@@ -8,26 +8,78 @@
 </head>
 
 <body>
-    @if(ViewBag.erorEdit)
+    @if (ViewBag.erorEdit)
     {
-         <div style="background-color:palevioletred">
-            <h3 >Eror</h3>
+        <div style="background-color:palevioletred">
+            <h3>Eror</h3>
             <p>the ditails are not valid</p>
         </div>
     }
     @using (Html.BeginForm("SaveAnimalChanges", "Categories", FormMethod.Post))
-{
-    <span>Animal Name:</span> @Html.TextBoxFor(m => m.Name)<br />
-    <span>Animal Age: </span>  <input name="Age" type="number"/><br />
-    <span>Animal Price: </span>  <input name="Price" type="number"/><br />
-    <span>Animal Discription: </span> @Html.TextBoxFor(m => m.Description)<br />
-    <span>Animal URL photo: </span> @Html.TextBoxFor(m => m.PictureName)<br />
-    <label style="visibility:collapse">   @Html.TextBoxFor(m => m.ID)</label>
-  
+    {
+        <table class="create-animal-form">
+            <tr>
+                <th>
+                    <span>Name: </span>
+                </th>
+                <th>
+                    <input name="Name" type="text" value="@Model.Name" />
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <span>Age: </span>
+                </th>
+                <th>
+                    <input name="Age" type="number" value="@Model.Age" />
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <span>PictureURL: </span>
+                </th>
+                <th>
+                    <input name="pictureName" type="text" value="@Model.PictureName" />
+                </th>
+            </tr>
 
-    <input id = "Submit" type = "submit" value = "submit" />
-}
- 
+            <tr>
+                <th>
+                    <span>Description: </span>
+                </th>
+                <th>
+                    <input name="description" type="text" value="@Model.Description" />
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <span>Price: </span>
+                </th>
+                <th>
+                    <input name="Price" type="number" value="@Model.Price" />
+                </th>
+            </tr>
+            <label style="visibility:collapse"> <input name="id" type="number" value="@Model.ID" /></label>
+
+        </table>
+
+
+        <input id="Submit" type="submit" value="submit" />
+
+    }
+
+    @*
+    <span>Animal Name:</span> <input name="Name" type="text" value="@Model.Name" /><br />
+    <span>Animal Age: </span>  <input name="Age" type="number" value="@Model.Age"/><br />
+    <span>Animal Price: </span>  <input name="Price" type="number" value="@Model.Price"/><br />
+    <span>Animal Discription: </span> <input name="description" type="text" value="@Model.Description"/><br />
+    <span>Animal URL photo: </span> <input name="pictureName" type="text" value="@Model.PictureName"/><br />
+    <label style="visibility:collapse"> <input name="id" type="number" value="@Model.ID"/></label>*@
+
+
+
+
+
 
 </body>
 

@@ -6,6 +6,13 @@
 
 </head>
 <body>
+    @if (ViewBag.MakeCategoryEror)
+    {
+         <div style="background-color:palevioletred">
+            <h3 >Eror</h3>
+            <p>the ditails are not valid</p>
+        </div>
+    }
     <h1>Create category</h1>
     @using (Html.BeginForm("CreateCategory", "Categories", FormMethod.Post))
     {

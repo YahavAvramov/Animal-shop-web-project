@@ -26,13 +26,18 @@ namespace AnimalWeb.Controllers
             ViewBag.isAdmin = _isAdmin;
             return View(_repository.GetCategories());
         }
-        public IActionResult MakeNewCategoryForm()
+        public IActionResult MakeNewCategoryForm(bool eror = false)
         {
+            ViewBag.MakeCategoryEror = eror;
             return View();
         }
         [HttpPost]
         public IActionResult CreateCategory(string Name, string CategoryPicture)
         {
+            if(string.IsNullOrEmpty(Name) || string.IsNullOrEmpty(CategoryPicture))
+            {
+                return RedirectToAction("MakeNewCategoryForm", "Categories", new { eror = true });
+            }
             _repository.CreateCategory(Name, CategoryPicture);
 
             return RedirectToAction("AllCategories");
