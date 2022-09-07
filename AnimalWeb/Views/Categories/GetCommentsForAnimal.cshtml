@@ -6,7 +6,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <head>
-
+    <link href="~/css/comments.css" rel="stylesheet" />
 
 </head>
 
@@ -16,53 +16,69 @@
         string newCommentUrl = commentsPicQue.GetRandomUrlForImag();
 
     }
-    <div>
-        <img src="@ViewBag.PictureUrl" alt="corrent animal picture" style="height:100px; width:100px; float:right;">
+
+    <div class="container-inline">
+        <div class ="container-column">
+            <div>
+                <label class="Name">@ViewBag.Name</label>
+            </div>
+            <div>
+                <label class="Description">@ViewBag.Description</label>
+            </div>
+        </div>
+        <div class ="container">
+            <img src="@ViewBag.PictureUrl" alt="current animal picture" style="height:300px; width:300px; float:right;">
+        </div>
     </div>
 
-    <h3 class="pull-left">New Comment</h3>
+    <div class="container-column">
+        <h3 class="pull-left">New Comment</h3>
 
-    <br />
-    <div>
-        @using (Html.BeginForm("AddCommentsForAnimal", "Categories", FormMethod.Post))
-        {
-            <fieldset>
-                <div class="row">
-                    <div class="col-sm-3 col-lg-2 hidden-xs">
-                        <img class="img-responsive" src="@newCommentUrl" ; alt="user Difolt Picture">
+        <br />
+        <div>
+            @using (Html.BeginForm("AddCommentsForAnimal", "Categories", FormMethod.Post))
+            {
+                <fieldset>
+                    <div class="row">
+                        <div class="col-sm-3 col-lg-2 hidden-xs">
+                            <img class="img-responsive" src="@newCommentUrl" ; alt="user Default Picture">
+                        </div>
+                        <div class="form-group col-xs-12 col-sm-9 col-lg-10">
+                            <table class="create-animal-form">
+                                <tr>
+                                    <th>
+                                        <span>Name: </span>
+                                    </th>
+                                    <th>
+                                        @Html.TextBoxFor(m => m.CommentWriterName)
+
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <span>Messge: </span>
+                                    </th>
+                                    <th>
+                                        @Html.TextBoxFor(m => m.Comment)
+                                    </th>
+
+                                </tr>
+                                <p style="visibility:hidden">
+                                    <input name="AnimalID" type="hidden" value="@ViewBag.correntAnimalID" />
+                                    <input name="pictureName" type="hidden" value="@ViewBag.PictureUrl" />
+                                    <input name="description" type="hidden" value="@ViewBag.Description" />
+                                    <input name="name" type="hidden" value="@ViewBag.Name" />
+                                </p>
+                            </table>
+
+                            <input id="Submit" class="btn btn-normal" type="submit" value="submit" />
+                        </div>
                     </div>
-                    <div class="form-group col-xs-12 col-sm-9 col-lg-10">
-                        <table class="create-animal-form">
-                            <tr>
-                                <th>
-                                    <span>Name: </span>
-                                </th>
-                                <th>
-                                    @Html.TextBoxFor(m => m.CommentWriterName)
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <span>Messge: </span>
-                                </th>
-                                <th>
-                                    @Html.TextBoxFor(m => m.Comment)
-                                </th>
+                </fieldset>
+            }
 
-                            </tr>
-                            <p style="visibility:hidden">
-                                <input name="AnimalID" type="hidden" value="@ViewBag.correntAnimalID" />
-                            </p>
-                        </table>
-
-                        <input id="Submit" class="btn btn-normal" type="submit" value="submit" />
-                    </div>
-                </div>
-            </fieldset>
-        }
-
+        </div>
     </div>
-
 
     <br />
     <br />

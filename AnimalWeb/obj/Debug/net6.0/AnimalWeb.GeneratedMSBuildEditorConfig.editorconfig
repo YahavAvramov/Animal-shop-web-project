@@ -8,69 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AnimalWeb
 build_property.RootNamespace = AnimalWeb
-build_property.ProjectDir = C:\Users\yahav\OneDrive\שולחן העבודה\‏ASnimalShopNewest3\AnimalWeb\
+build_property.ProjectDir = C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\yahav\OneDrive\שולחן העבודה\‏ASnimalShopNewest3\AnimalWeb
+build_property.MSBuildProjectDirectory = C:\Users\Maxim\Source\Repos\Animal-shop-web-project\AnimalWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Admin/AdminConnectionForm.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Admin/AdminConnectionForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Db25uZWN0aW9uRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Admin/ChangingForm.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Admin/ChangingForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hhbmdpbmdGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Categories/AllCategories.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Categories/AllCategories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xBbGxDYXRlZ29yaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Categories/CreateAnimal.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Categories/CreateAnimal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGVBbmltYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Categories/Edit.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Categories/GetCategory.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Categories/GetCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xHZXRDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Categories/GetCommentsForAnimal.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Categories/GetCommentsForAnimal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xHZXRDb21tZW50c0ZvckFuaW1hbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Categories/MakeNewCategoryForm.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Categories/MakeNewCategoryForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xNYWtlTmV3Q2F0ZWdvcnlGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Home/Index.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Shared/Error.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Shared/_Layout.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Shared/_partialView.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Shared/_partialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9wYXJ0aWFsVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/_ViewImports.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yahav/OneDrive/שולחן העבודה/‏ASnimalShopNewest3/AnimalWeb/Views/_ViewStart.cshtml]
+[C:/Users/Maxim/Source/Repos/Animal-shop-web-project/AnimalWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

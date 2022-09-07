@@ -19,10 +19,10 @@
 <body>
 
 
-    <img src="\Assets\iconGetPet.png" alt="icon" width="500" height="300" style="margin-left:30%; margin-top:-40px;" />
+    <img src="\Assets\iconGetPet.png" alt="icon" width="500" height="300" style="margin:40px 35%" />
     <div class="container">
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" style="border-radius:20px;" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -30,12 +30,13 @@
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
 
+
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 @foreach (var item in Model)
                 {
                     <div id="item" class="item" href="Home">
-                        <img src=@item.PictureName alt="@item.Category +picture " style="width:100%; border-radius:20px;">
+                        <img src=@item.PictureName alt="@item.Category +picture " style="width:100%;height:50%; border-radius:20px;">
                         <div class="carousel-caption">
                             <h3>you can find @item.Name here! </h3>
                            
