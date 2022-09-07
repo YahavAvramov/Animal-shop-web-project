@@ -10,9 +10,7 @@
     @using (Html.BeginForm("CreateCategory", "Categories", FormMethod.Post))
     {
         <span>Category Name:</span> @Html.TextBoxFor(m => m.Name)
-        <br />
-        <span >ID: </span> @Html.TextBoxFor(m => m.ID)
-        <br />
+ 
         <span>URL Picture </span> @Html.TextBoxFor(m => m.CategoryPicture)
         <br />
 

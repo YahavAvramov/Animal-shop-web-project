@@ -29,15 +29,15 @@
     {
         <div class="modal-content shadow col-lg-5 col-md-4 category-modul">
             <div class="modal-body modal-centered">
-                <p><a class="btn btn-secondary" href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = Animal.ID} )">  <img src="@Animal.PictureName" alt="@Animal.Name icon" style="height:150px; width:150px; border-radius:50%;" /> </a></p>
-                <h2 class="fw-normal">@Html.DisplayFor(model => Animal.Name)</h2>
+                <p><a class="btn btn-secondary" href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = @Animal.ID} )">  <img src="@Animal.PictureName" alt="@Animal.Name icon" style="height:150px; width:150px; border-radius:50%;" /> </a></p>
+                <h2 class="fw-normal">@Html.DisplayFor(model => @Animal.Name)</h2>
             </div>
             <div class="modal-footer modal-centered">
                 <h4>Age : @Animal.Age</h4>
                 <h5>@Animal.Description</h5>
-                <a href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = Animal.ID , isAdmin = ViewBag.isAdmin} )">
+                <a href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = @Animal.ID , pictureName = @Animal.PictureName } )">
                     <button type="button" class="btn btn-primary btn-lg">$ @Animal.Price</button>
-                    <button type="button" class="btn btn-primary btn-lg" href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = Animal.ID} )">Leave comment</button>
+                    <button type="button" class="btn btn-primary btn-lg" href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = @Animal.ID ,pictureName = @Animal.PictureName} )">Leave comment</button>
                 </a><br />
             </div>
             @* each category will have an uniq action with her name that will return the view of her page*@

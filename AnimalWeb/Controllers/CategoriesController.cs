@@ -52,8 +52,9 @@ namespace AnimalWeb.Controllers
             }
             return RedirectToAction("Index", "Home");
         }
-        public IActionResult CreateAnimal(string category)
+        public IActionResult CreateAnimal(string category , bool eror = false)
         {
+            ViewBag.erorAnimal = eror; 
             ViewBag.categoriesNames = _repository.GetCategories().Select(c => c.Name);
             ViewBag.categoryName = category;
             return View();
@@ -61,16 +62,25 @@ namespace AnimalWeb.Controllers
         [HttpPost]
         public IActionResult SaveAnimalToDb(string name, int age, int price, string description, string pictureName, string categoryName)
         {
+            if(name == null || name == "" || price == 0 || pictureName == null || pictureName == "")
+            {
+                return RedirectToAction("CreateAnimal", new { category = categoryName, eror = true });
+            }
             _repository.CreateAnimal(name, age, price, description, pictureName, categoryName);
             return RedirectToAction("GetCategory", "Categories", new { categoryName = categoryName });
         }
-        public IActionResult Edit(int id)
+        public IActionResult Edit(int id , bool eror = false)
         {
+           ViewBag.erorEdit = eror; 
             return View(_repository.GetAnimalById(id));
         }
         [HttpPost]
         public IActionResult SaveAnimalChanges(string name, int age, int price, string description, string pictureName, int id)
         {
+            if(name == null || name == "" ||  price == 0 || pictureName == null || pictureName == "")
+            {
+                return RedirectToAction("Edit", new { id = id, eror = true });
+            }
             _repository.UpdateAnimal(name, age, price, description, pictureName, id);
             string categoryName = _repository.GetCategoryById(id);
 
@@ -87,10 +97,11 @@ namespace AnimalWeb.Controllers
             _repository.DeleteComment(id , animalId);
             return RedirectToAction("GetCommentsForAnimal", new { Id = animalId });
         }
-        public IActionResult GetCommentsForAnimal(int Id, bool eror = false)
+ 
+        public IActionResult GetCommentsForAnimal(int Id , string pictureName)
         {
+            ViewBag.PictureUrl = pictureName;    
             if(_isAdmin == true) { ViewBag.isAdnin = true;}
-            ViewBag.eror = eror;
             ViewBag.correntAnimalID = Id;
             correntAnimalId= Id;
             ViewBag.allComments = _repository.GetCommentsById(Id).Reverse();
@@ -100,6 +111,7 @@ namespace AnimalWeb.Controllers
         //[AcceptVerbs]
         public IActionResult AddCommentsForAnimal(int AnimalID , string CommentWriterName, string comment)
         {
+            
             if(CommentWriterName == "" || comment == "") { return RedirectToAction("GetCommentsForAnimal", new { Id = AnimalID, eror = true}); }
             _repository.AddComment(comment, CommentWriterName , AnimalID);
             return RedirectToAction("GetCommentsForAnimal", "Categories", new { Id = AnimalID });

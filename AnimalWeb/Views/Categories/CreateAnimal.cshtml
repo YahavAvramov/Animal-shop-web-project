@@ -10,8 +10,18 @@
 
 </head>
 <body>
+    @if (ViewBag.erorAnimal)
+    {
+
+         <div style="background-color:palevioletred">
+            <h3 >Eror</h3>
+            <p>the ditails are not valid</p>
+        </div>
+    }
+    
     <h1 style="margin-top:50px; margin-left:50%;">Create new animal</h1>
     <br />
+  
 
     @using (Html.BeginForm("SaveAnimalToDb", "Categories", FormMethod.Post))
     {
