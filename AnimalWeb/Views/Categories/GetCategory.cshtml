@@ -2,7 +2,7 @@
 @model IEnumerable<AnimalWeb.Models.Animals>
 
 @{
-    ViewData["Title"] = "Animals " + @Html.DisplayNameFor(model => model.CategoryName);
+    ViewData["Title"] = ViewBag.categoryName + " page";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -24,6 +24,7 @@
         }
     }
    
+    <h1>Here you can find the best @ViewBag.categoryName in town</h1>
 
     @foreach (var Animal in Model)
     {
@@ -35,7 +36,7 @@
             <div class="modal-footer modal-centered">
                 <h4>Age : @Animal.Age</h4>
                 <h5>@Animal.Description</h5>
-                <a href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = @Animal.ID , pictureName = @Animal.PictureName } )">
+                <a href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = @Animal.ID , pictureName = @Animal.PictureName, name = @Animal.Name, description = @Animal.Description } )">
                     <button type="button" class="btn btn-primary btn-lg">$ @Animal.Price</button>
                     <button type="button" class="btn btn-primary btn-lg" href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = @Animal.ID ,pictureName = @Animal.PictureName} )">Leave comment</button>
                 </a><br />

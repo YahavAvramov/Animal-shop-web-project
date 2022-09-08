@@ -14,15 +14,15 @@ builder.Services.AddAuthentication()
     {
         IConfigurationSection googleAuthNSection =
         config.GetSection("Authentication:Google");
-        options.ClientId = googleAuthNSection["123506300981-6d75gsged3d7unp6dq13nf1rp665kh3s.apps.googleusercontent.com"];
-        options.ClientSecret = googleAuthNSection["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"];
+        options.ClientId = googleAuthNSection["ClientId"];
+        options.ClientSecret = googleAuthNSection["ClientSecret"];
     })
     .AddFacebook(options =>
     {
         IConfigurationSection FBAuthNSection =
         config.GetSection("Authentication:FB");
-        options.ClientId = FBAuthNSection["775363860471658"];
-        options.ClientSecret = FBAuthNSection["9f81d207f7220a6d9973e5f41677b2db"];
+        options.ClientId = FBAuthNSection["ClientId"];
+        options.ClientSecret = FBAuthNSection["ClientSecret"];
     });
 //.AddMicrosoftAccount(microsoftOptions =>
 //{

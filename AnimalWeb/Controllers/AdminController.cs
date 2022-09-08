@@ -23,9 +23,9 @@ namespace AnimalWeb.Controllers
             return View();
         }
         [HttpGet]
-        public async Task<IActionResult> AdminConnectionForm(bool alart = false)
+        public async Task<IActionResult> AdminConnectionForm(bool alert = false)
         {
-            ViewBag.alart = alart;
+            ViewBag.alert = alert;
             return View();
         }
         [HttpGet]

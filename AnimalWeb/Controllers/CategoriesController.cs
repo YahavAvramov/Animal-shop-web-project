@@ -24,7 +24,7 @@ namespace AnimalWeb.Controllers
         public IActionResult AllCategories()
         {
             ViewBag.isAdmin = _isAdmin;
-            return View(_repository.GetCategories());
+            return View(_repository.GetCategories()); 
         }
         public IActionResult MakeNewCategoryForm(bool eror = false)
         {
@@ -97,29 +97,28 @@ namespace AnimalWeb.Controllers
             _repository.DeleteAnimal(id);
             return RedirectToAction("GetCategory", "Categories", new { categoryName = categoryName });
         }
-        public IActionResult DeletComment(int id , int animalId)
+        public IActionResult DeleteComment(int id , int animalId)
         {
             _repository.DeleteComment(id , animalId);
             return RedirectToAction("GetCommentsForAnimal", new { Id = animalId });
         }
- 
-        public IActionResult GetCommentsForAnimal(int Id , string pictureName)
+        public IActionResult GetCommentsForAnimal(int Id , string pictureName, string name, string description)
         {
-            ViewBag.PictureUrl = pictureName;    
-            if(_isAdmin == true) { ViewBag.isAdnin = true;}
+            ViewBag.PictureUrl = pictureName;
+            ViewBag.Name = name;
+            ViewBag.Description = description;
+            if (_isAdmin == true) { ViewBag.isAdnin = true;}
             ViewBag.correntAnimalID = Id;
             correntAnimalId= Id;
             ViewBag.allComments = _repository.GetCommentsById(Id).Reverse();
             return View();
         }
-
-        //[AcceptVerbs]
-        public IActionResult AddCommentsForAnimal(int AnimalID , string CommentWriterName, string comment)
+        public IActionResult AddCommentsForAnimal(int AnimalID , string CommentWriterName, string comment, string pictureName, string name, string description)
         {
             
             if(CommentWriterName == "" || comment == "") { return RedirectToAction("GetCommentsForAnimal", new { Id = AnimalID, eror = true}); }
             _repository.AddComment(comment, CommentWriterName , AnimalID);
-            return RedirectToAction("GetCommentsForAnimal", "Categories", new { Id = AnimalID });
+            return RedirectToAction("GetCommentsForAnimal", "Categories", new { Id = AnimalID, pictureName = pictureName, name = name, description = description });
         }
 
 

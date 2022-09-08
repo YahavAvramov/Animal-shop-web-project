@@ -11,19 +11,12 @@
 
         </div>
         <ul class="nav navbar-nav ">
-            <li class="active" id="Home"><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li id="Home"><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li><a href="@Url.Action("AllCategories", "Categories")">Categories</a></li>
 
-            <li class="dropdown">
+@*            <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="@Url.Action("AllCategories", "Categories")">Categories<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="@Url.Action("AllCategories", "Categories")">Categories</a></li>
-
-
-
-                    @*                    @foreach (var item in ViewData["Model"])
-                    {
-                    <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = item , isAdmin = ViewBag.isAdmin} )"></a>item</li>
-                    }*@
 
                     <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Dogs"} )"</a>Dogs</li>
                     <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Cats"} )"</a>Cats</li>
@@ -33,7 +26,7 @@
                     <li><a href="@Url.Action("GetCategory", "Categories", new { categoryName = "Birds"})">Birds</a></li>
 
                 </ul>
-            </li>
+            </li>*@
         </ul>
         <ul class="nav navbar-nav navbar-right">
             @{

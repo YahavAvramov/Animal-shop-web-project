@@ -2,6 +2,7 @@
 using AnimalWeb.Models;
 using AnimalWeb.Repositories;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace AnimalWeb.Controllers
@@ -14,8 +15,7 @@ namespace AnimalWeb.Controllers
             _repository = repository;
         }
         public IActionResult Index()
-        {
-            
+        {            
             ViewBag.isAdmin = CategoriesController._isAdmin;
             return View(_repository.GetBestAnimals());
         }
