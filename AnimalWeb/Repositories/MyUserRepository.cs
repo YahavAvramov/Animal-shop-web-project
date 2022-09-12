@@ -11,15 +11,13 @@ namespace AnimalWeb.Repositories
         {
             _context = context;
         }
-        //IEnumerable<Users> GetUser(string userName, string password)
-        //{
 
+        public void AddNewAdmin(string email, string password)
+        {
+            _context.Users.Add(new Users { Email = email, Password = password });
+            _context.SaveChanges();
+        }
 
-        //}
-        //IEnumerable<UserAdmin> IsAdmin(Users user)
-        //{
-
-        //}
         public bool CheckUser(string userEmail, string password)
         {
             IEnumerable<Users> users = _context.Users; 

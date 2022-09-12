@@ -8,5 +8,7 @@ namespace AnimalWeb.Repositories
         //IEnumerable<UserAdmin> IsAdmin(Users user);
         IEnumerable<Users> GetUsers();
 
+        void AddNewAdmin(string email , string password);
+
     }
 }

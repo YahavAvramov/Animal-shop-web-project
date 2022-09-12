@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "AdminSignUpForm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+
+</head>
+<body>
+    @if (ViewBag.error)
+    {
+        <div style="background-color:palevioletred">
+            <h3>Error</h3>
+            <p>The details are not valid</p>
+        </div>
+    }
+    @using (Html.BeginForm("CheckNewAdminDetailsAndSignToDB", "Admin", FormMethod.Post))
+    {
+        <div>
+            <h2> New admin ditails:</h2>
+            <span>Email:</span>
+            <input name="email" type="email" />
+
+            <span>Password :</span>
+            <input name="password" type="password" />
+
+        </div>
+
+        <div>
+            <h2>Approver Details:</h2>
+            <span> Email:</span>
+            <input name="approverEmail" type="email" />
+
+            <span>Password :</span>
+            <input name="approverPassword" type="password" />
+            <label>you can use: yahav99999@gmail.com  -  123456</label>
+
+        </div>
+
+        <input id="Submit" type="submit" value="submit" />
+    }
+</body>
+
+

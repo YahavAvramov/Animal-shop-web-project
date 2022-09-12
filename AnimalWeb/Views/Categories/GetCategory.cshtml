@@ -11,7 +11,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-   <link rel="stylesheet" href="/css/modal.css">
+    <link rel="stylesheet" href="/css/modal.css">
     <title>View</title>
 </head>
 <body>
@@ -19,16 +19,16 @@
         if (ViewBag.isAdmin == true)
         {
             <p>
-                <a href="@Url.Action("CreateAnimal", "Categories", new{category = @ViewBag.categoryName })" >Create New Animal</a>
+                <a href="@Url.Action("CreateAnimal", "Categories", new{category = @ViewBag.categoryName })">Create New Animal</a>
             </p>
         }
     }
-   
+
     <h1>Here you can find the best @ViewBag.categoryName in town</h1>
 
     @foreach (var Animal in Model)
     {
-        <div class="modal-content shadow col-lg-5 col-md-4 category-modul">
+        <div class="modal-content shadow col-lg-5 col-md-4 category-modul" style="background-color:brown">
             <div class="modal-body modal-centered">
                 <p><a class="btn btn-secondary" href="@Url.Action("GetCommentsForAnimal", "Categories", new { Id = @Animal.ID} )">  <img src="@Animal.PictureName" alt="@Animal.Name icon" style="height:150px; width:150px; border-radius:50%;" /> </a></p>
                 <h2 class="fw-normal">@Html.DisplayFor(model => @Animal.Name)</h2>
@@ -46,11 +46,36 @@
 
             @if (ViewBag.isAdmin == true)
             {
-            <td id="Animal-actions">
-                @Html.ActionLink("Edit", "Edit", new {id=Animal.ID  }) |
-                @Html.ActionLink("Delete", "Delete", new { id=Animal.ID })
-            </td>
+                <td id="Animal-actions">
+                    @Html.ActionLink("Edit", "Edit", new {id=Animal.ID  }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=Animal.ID })
+                </td>
             }
+
+        </div>
+
+    }
+
+    @if (!ViewBag.isAdmin)
+    {
+ 
+        <div class="modal-content shadow col-lg-5 col-md-4 category-modul Add-category">
+            <div class="modal-body modal-centered">
+                <p>
+                    <a href="@Url.Action("CreateAnimal", "Categories", new{category = @ViewBag.categoryName })">
+                        <img src="\Assets\CategoriesI-icons\addCategory.png" alt="pluse icon to add category" style="height:150px; width:150px; border-radius:50%;" />
+                    </a>
+                </p>
+            </div>
+            <br />
+            <br />
+            <div class="modal-footer modal-centered">
+                <h2 class="fw-normal">Add Animal</h2>
+                <a href="@Url.Action("CreateAnimal", "Categories")">
+                    <button type="button" class="btn btn-primary btn-lg"> Add</button>
+                    <br />
+                </a> <br />
+            </div>
 
         </div>
 

@@ -17,17 +17,20 @@ namespace AnimalWeb.Controllers
         {
             _userRepository = repository;
         }
-        public ActionResult Index()
+        public IActionResult AdminSignUpForm(bool error = false)
         {
-
+            ViewBag.error = error;
             return View();
         }
+
         [HttpGet]
         public async Task<IActionResult> AdminConnectionForm(bool alert = false)
         {
             ViewBag.alert = alert;
             return View();
         }
+
+     
         [HttpGet]
         [AllowAnonymous]
         public IActionResult ExternalLogin(string provider, string returnurl = null)
@@ -46,12 +49,28 @@ namespace AnimalWeb.Controllers
             bool isUser = _userRepository.CheckUser(Email , Password);
             if (!isUser)
             {
-                return RedirectToAction("AdminConnectionForm", "Admin" , new {alart = true});
+                return RedirectToAction("AdminConnectionForm", "Admin", new {alart = true});
             }
             return RedirectToAction("SignAdmin", "Categories", new { isAdmin = true });
         }
 
-      
+        public IActionResult CheckNewAdminDetailsAndSignToDB(string email, string password, string approverEmail, string approverPassword)
+        {
+
+            bool isUser = _userRepository.CheckUser(approverEmail, approverPassword);
+            if (!isUser)
+            {
+                return RedirectToAction("AdminSignUpForm", "Admin", new { error = true });
+            }
+            else
+            {
+                _userRepository.AddNewAdmin(email, password);
+                return RedirectToAction("AdminConnectionForm", "Admin");
+            }
+        }
+
+
+
 
     }
 }
