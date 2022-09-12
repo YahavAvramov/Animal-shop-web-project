@@ -1278,3 +1278,13 @@ C:\Users\yahav\OneDrive\שולחן העבודה\AnimalShopNewest2\AnimalWeb.Test
 C:\Users\yahav\OneDrive\שולחן העבודה\AnimalShopNewest2\AnimalWeb.Tests\obj\Debug\net6.0\AnimalWeb.Tests.pdb
 C:\Users\yahav\OneDrive\שולחן העבודה\AnimalShopNewest2\AnimalWeb.Tests\obj\Debug\net6.0\AnimalWeb.Tests.genruntimeconfig.cache
 C:\Users\yahav\OneDrive\שולחן העבודה\AnimalShopNewest2\AnimalWeb.Tests\obj\Debug\net6.0\ref\AnimalWeb.Tests.dll
+C:\Users\senik\Source\Repos\Animal-shop-web-project\AnimalWeb.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\senik\Source\Repos\Animal-shop-web-project\AnimalWeb.Tests\obj\Debug\net6.0\AnimalWeb.Tests.csproj.AssemblyReference.cache
+C:\Users\senik\Source\Repos\Animal-shop-web-project\AnimalWeb.Tests\obj\Debug\net6.0\MvcTestingAppManifest.json
+C:\Users\senik\Source\Repos\Animal-shop-web-project\AnimalWeb.Tests\obj\Debug\net6.0\AnimalWeb.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\senik\Source\Repos\Animal-shop-web-project\AnimalWeb.Tests\obj\Debug\net6.0\AnimalWeb.Tests.AssemblyInfoInputs.cache
+C:\Users\senik\Source\Repos\Animal-shop-web-project\AnimalWeb.Tests\obj\Debug\net6.0\AnimalWeb.Tests.AssemblyInfo.cs
+C:\Users\senik\Source\Repos\Animal-shop-web-project\AnimalWeb.Tests\obj\Debug\net6.0\AnimalWeb.Tests.csproj.CoreCompileInputs.cache
+C:\Users\senik\Source\Repos\Animal-shop-web-project\AnimalWeb.Tests\obj\Debug\net6.0\AnimalWeb.Tests.dll
+C:\Users\senik\Source\Repos\Animal-shop-web-project\AnimalWeb.Tests\obj\Debug\net6.0\refint\AnimalWeb.Tests.dll
+C:\Users\senik\Source\Repos\Animal-shop-web-project\AnimalWeb.Tests\obj\Debug\net6.0\AnimalWeb.Tests.pdb
