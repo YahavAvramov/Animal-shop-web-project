@@ -43,7 +43,7 @@ namespace AnimalWeb.Tests.Controllers
             var animalsRepository = new FakeMyRepository();
             var categoriesController = new CategoriesController(animalsRepository);
 
-            var result = categoriesController.GetCommentsForAnimal(1, "path");
+            var result = categoriesController.GetCommentsForAnimal(1, "path", "test", "test");
             var timeSpend = DateTime.Now - dt;
             Assert.IsTrue(timeSpend < TimeSpan.FromSeconds(0.5));
         }

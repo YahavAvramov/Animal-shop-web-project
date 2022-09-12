@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maxim\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj": {}
+    "C:\\Users\\senik\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maxim\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj": {
+    "C:\\Users\\senik\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maxim\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj",
+        "projectUniqueName": "C:\\Users\\senik\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj",
         "projectName": "AnimalWeb",
-        "projectPath": "C:\\Users\\Maxim\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj",
-        "packagesPath": "C:\\Users\\Maxim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maxim\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\obj\\",
+        "projectPath": "C:\\Users\\senik\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\AnimalWeb.csproj",
+        "packagesPath": "C:\\Users\\senik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\senik\\Source\\Repos\\Animal-shop-web-project\\AnimalWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\senik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
