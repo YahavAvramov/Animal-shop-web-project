@@ -1,0 +1,40 @@
+﻿h1 {
+    color: white;
+}
+
+
+.modal-centered {
+    text-align: center;
+}
+
+.category-modul {
+    margin: 2%;
+    background-color: #00539CFF;
+    color: white;
+}
+
+.Add-category {
+    background-color: dimgray;
+    opacity: 0.5;
+}
+
+    .Add-category:hover {
+        background-color: aliceblue;
+    }
+
+#Add-.Add-category {
+    background-color: dimgray;
+    opacity: 0.5
+}
+#.Add-category:hover {
+    background-color: aliceblue;
+}
+
+#Animal-actions{
+    color:black;
+    height:20px;
+    width:20px;
+}
+
+
+

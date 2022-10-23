@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sg9L3VoFh5d59ekwYsFSORaNF8PORk/R/tIxv907xQEWoJeQLO7MDwIbN93NDFhebJzqj4MNT1HogAJbnd8dnA==",
+  "dgSpecHash": "K5mDrvZwC/oEgRi+4BYFyiBTmiJoQDg4XDZRBlTFIyPpGw0iWXoD3YcfZYQpO6PmjdWYJa8Xw6zD2gDHLnVISg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\Animal-Shop-Web\\AnimalWeb.Tests\\AnimalWeb.Tests.csproj",
+  "projectFilePath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\העבודות שלי לתצוגה\\Animal-Shop-Web\\AnimalWeb.Tests\\AnimalWeb.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yahav\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\yahav\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

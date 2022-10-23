@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bVjHbYhyZo6Y2UlvpRxJWTJdA4sesjXks6mRbjSF60CpviFrK0khSbczlDcQtYeaFxWxd4HDM78qNRTWPm25rQ==",
+  "dgSpecHash": "2QeOgDMvZQGgqk1aW+LKALz8APNPqcCXpUUtzKPaz0Ni+4H9n0QhsUlf2Jbl4fUG4agZQSHt8vgrqvP6z2rsjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\Animal-Shop-Web\\AnimalWeb\\AnimalWeb.csproj",
+  "projectFilePath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\העבודות שלי לתצוגה\\Animal-Shop-Web\\AnimalWeb\\AnimalWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yahav\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\yahav\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -1,0 +1,54 @@
+﻿body {
+    background-color: #EEA47FFF;
+}
+.date {
+    font-size: 11px
+}
+
+.comment-text {
+    font-size: 12px
+}
+
+.fs-12 {
+    font-size: 12px
+}
+
+.shadow-none {
+    box-shadow: none
+}
+
+.name {
+    color: #007bff
+}
+
+.cursor:hover {
+    color: blue
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.textarea {
+    resize: none
+}
+
+.container-column {
+    margin-left:5%;
+    display: flex;
+    flex-direction:column;
+}
+.container-inline {
+    margin:0 5% 0 5%;
+    display: flex;
+    flex-direction: row;
+}
+.Name {
+    font-size: 60px;
+    color:black;
+    
+}
+.Description {
+    font-size: 30px;
+    color: black;
+}

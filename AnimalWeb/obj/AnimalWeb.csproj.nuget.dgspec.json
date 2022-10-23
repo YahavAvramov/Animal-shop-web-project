@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\Animal-Shop-Web\\AnimalWeb\\AnimalWeb.csproj": {}
+    "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\העבודות שלי לתצוגה\\Animal-Shop-Web\\AnimalWeb\\AnimalWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\Animal-Shop-Web\\AnimalWeb\\AnimalWeb.csproj": {
+    "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\העבודות שלי לתצוגה\\Animal-Shop-Web\\AnimalWeb\\AnimalWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\Animal-Shop-Web\\AnimalWeb\\AnimalWeb.csproj",
+        "projectUniqueName": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\העבודות שלי לתצוגה\\Animal-Shop-Web\\AnimalWeb\\AnimalWeb.csproj",
         "projectName": "AnimalWeb",
-        "projectPath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\Animal-Shop-Web\\AnimalWeb\\AnimalWeb.csproj",
+        "projectPath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\העבודות שלי לתצוגה\\Animal-Shop-Web\\AnimalWeb\\AnimalWeb.csproj",
         "packagesPath": "C:\\Users\\yahav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\Animal-Shop-Web\\AnimalWeb\\obj\\",
+        "outputPath": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\העבודות שלי לתצוגה\\Animal-Shop-Web\\AnimalWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
