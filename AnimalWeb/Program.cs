@@ -42,7 +42,7 @@ app.UseStaticFiles();
 using (var scope = app.Services.CreateScope())
 {
     var ctx = scope.ServiceProvider.GetRequiredService<Context>();
-    ctx.Database.EnsureDeleted();
+    //ctx.Database.EnsureDeleted();
     ctx.Database.EnsureCreated();
 }
 

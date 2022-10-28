@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FZDy4FNtJVt38C3YOjOWaQLrEWVBNMqq+mvmLPRg2kI=",
+  "Hash": "xf9kZwAKY1V8WkP1PYVUeBtyqEqmuKBeMm3hdzGP1wk=",
   "Source": "AnimalWeb",
   "BasePath": "_content/AnimalWeb",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\העבודות שלי לתצוגה\\Animal-Shop-Web\\AnimalWeb\\wwwroot\\Assets\\backgroundShop.jpg",
+      "SourceId": "AnimalWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\העבודות שלי לתצוגה\\Animal-Shop-Web\\AnimalWeb\\wwwroot\\",
+      "BasePath": "_content/AnimalWeb",
+      "RelativePath": "Assets/backgroundShop.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\backgroundShop.jpg"
+    },
     {
       "Identity": "C:\\Users\\yahav\\OneDrive\\שולחן העבודה\\העבודות שלי לתצוגה\\Animal-Shop-Web\\AnimalWeb\\wwwroot\\Assets\\CategoriesI-icons\\addCategory.png",
       "SourceId": "AnimalWeb",
